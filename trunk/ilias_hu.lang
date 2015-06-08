@@ -15235,71 +15235,71 @@ meta#:#md_adv_confirm_definition_select_option_all#:#Összes bejegyzése kezelé
 meta#:#md_adv_confirm_definition_select_option_single#:#Döntéshozatal bejegyzésenként
 meta#:#md_adv_confirm_definition_select_option_all_action#:#Új érték
 file#:#file_import#:#Fájl importálása
-dcl#:#dcl_boolean_desc#:#Auswahlfeld für "zutreffend"/"nicht zutreffend"
-dcl#:#dcl_text_desc#:#Eingabefeld für Text, Links oder E-Mail-Adressen
-dcl#:#dcl_integer_desc#:#Eingabefeld für ganze Zahlen. Nicht erlaubt sind Brüche und Dezimalzahlen.
-dcl#:#dcl_datetime_desc#:#Datumseingabe per Auswahlmenü oder Kalender
-dcl#:#dcl_mob_desc#:#Möglichkeit zum Hochladen von Bild-, Audio- oder Video-Dateien, die direkt in der Datensammlung präsentiert werden. Erlaubte Dateitypen: %s
-dcl#:#dcl_file_desc#:#Möglichkeit zum Hochladen beliebiger Dateien, die per Link heruntergeladen werden können
-dcl#:#dcl_reference_desc#:#Bereitstellen von Auswahloptionen, die in einem anderen Feld einer Tabelle gepflegt werden
-dcl#:#dcl_reference_title#:#Referenz zu Tabelle und Feld
-dcl#:#dcl_ILIAS_reference_desc#:#Suchfeld, um ein Objekt in ILIAS auszuwählen und zu verlinken
-dcl#:#dcl_rating_desc#:#Benutzer können Einträge mit bis zu fünf Sternen bewerten.
-dcl#:#dcl_formula_desc#:#Ähnlich wie bei der Tabellenkalkulation können per Formel Einträge verbunden oder berechnet werden.
-dcl#:#dcl_additional_info_desc#:#Der Text wird direkt oberhalb der Tabelle angezeigt.
-dcl#:#dcl_public_comments_desc#:#Benutzer können Datensätze dieser Tabelle kommentieren
-dcl#:#dcl_default_sort_field_desc#:#Tabelle wird standardmässig nach dem ausgewählten Feld sortiert.
-dcl#:#dcl_visible_desc#:#Benutzer können diese Tabelle über das Auswahlmenü "Tabelle" aufrufen.
-dcl#:#dcl_ILIAS_reference_link_desc#:#Objekt kann per Link aufgerufen werden, wenn Leserecht vorhanden ist
-dcl#:#dcl_learning_progress_desc#:#Wenn vorhanden, wird der Lernfortschritts des Benutzers angezeigt
-dcl#:#dcl_display_action_menu_desc#:#Objekt kann kopiert oder verknüpft werden, wenn der Benutzer entsprechende Rechte besitzt
-dcl#:#dcl_export_enabled_desc#:#Alle Benutzer können die Daten der Tabelle selber exportieren. Dazu müssen in der Übersicht "Felder der ausgewählten Tabelle" die Felder einzeln als exportierbar ausgewählt werden.
-dcl#:#dcl_add_perm_desc#:#Benutzer können Einträge in dieser Tabelle erstellen.
-dcl#:#dcl_limited_desc#:#Benutzer können Einträge nur bis zum gewählten Datum hinzufügen, bearbeiten und löschen.
-dcl#:#dcl_unique_desc#:#In dieses Feld kann ein gleichlautender Eintrag nur einmal vorgenommen werden.
-dcl#:#dcl_formula_detail_desc#:#Entries are generated automatically, you are not able to edit the entry.
-dcl#:#dcl_text_email_detail_desc#:#Please enter a valid URL or E-Mail address.
-adve#:#adve_auto_url_linking#:#URL Auto-Linking
-adve#:#adve_auto_url_linking_info#:#Tries to identify URLs like "http://.." in text paragraphs and automatically creates links around them.
-content#:#cont_auto_time#:#Auto Animation Waiting Time
-content#:#cont_rand_start#:#Random Start
-content#:#cont_tabs_carousel#:#Carousel
-exc#:#exc_adopt_group_teams#:#Adopt Teams from Groups
-exc#:#exc_adopt_group_teams_added#:#%s Users were added.
-exc#:#exc_adopt_group_teams_blocked#:#%s User were already assigned.
-exc#:#exc_adopt_group_teams_conflict#:#User "%1$s" is already selected for group "%2$s".
-exc#:#exc_adopt_group_teams_no_members#:#No members
-exc#:#exc_deadline_ext_mismatch#:#The grace period has to end after the deadline.
-exc#:#exc_deadline_extended#:#Grace Period
-exc#:#exc_deadline_extended_info#:#Late submission are possible between the deadline and the end of the grace period.
-exc#:#exc_late_submission#:#Late Submission
-exc#:#exc_late_submission_warning#:#Submissions after %s are marked as late.
-exc#:#exc_max_file#:#Max Number of Files
-exc#:#exc_max_file_info#:#Participants will not be able to upload more files once the limit is reached.
-exc#:#exc_max_file_reached#:#You cannot upload more than %s files.
-exc#:#exc_max_file_tgl#:#Limit Uploads
-exc#:#exc_no_team_yet_info_tutor#:#Teams are managed by the exercise tutors.
-exc#:#exc_peer_review_chars_invalid#:#At least one of your feedbacks does not have the required minimum length of %s characters.
-exc#:#exc_peer_review_completion#:#Determination of "Passed" Status
-exc#:#exc_peer_review_completion_all#:#Only after all required feedbacks
-exc#:#exc_peer_review_completion_none#:#No feedback necessary
-exc#:#exc_peer_review_completion_one#:#Already with at least 1 valid feedback
-exc#:#exc_peer_review_given#:#Show Given Feedback
-exc#:#exc_peer_review_min_chars#:#Mininum Number of Characters
-exc#:#exc_peer_review_min_chars_info#:#The required number of characters for a valid feedback.
-exc#:#exc_peer_review_min_chars_tgl#:#Mininum Length
-exc#:#exc_peer_review_show_missing#:#You cannot view your received feedback as you gave not enough feedback.
-exc#:#exc_peer_review_show_received_none#:#You received no feedback.
-exc#:#exc_peer_review_simple_unlock#:#Access to received feedback
-exc#:#exc_peer_review_simple_unlock_active#:#After giving at least 1 valid feedback
-exc#:#exc_peer_review_simple_unlock_inactive#:#After giving all required feedbacks
-exc#:#exc_team_management_tutor#:#Team Management by Tutors
-exc#:#exc_team_management_tutor_info#:#If activated participants cannot organize teams themselves.
-exc#:#exc_team_multi_create#:#Create Team
-exc#:#exc_team_multi_dissolve#:#Dissolve Team(s)
-style#:#sty_type_ca_cntr#:#Carousel Container
-style#:#sty_type_ca_icntr#:#Carousel Item Container
-style#:#sty_type_ca_icont#:#Carousel Item Content
-style#:#sty_type_ca_ihead#:#Carousel Item Header
-wiki#:#wiki_link_md_values#:#Automatic Linking
-wiki#:#wiki_link_md_values_info#:#Autmatically links properties presented in the side block to wiki pages with the same name.
+dcl#:#dcl_boolean_desc#:#'Kipipált'/'Nem kipipált' jelölőnégyzet.
+dcl#:#dcl_text_desc#:#Beviteli mező szöveg, link vagy e-mailcím tárolására.
+dcl#:#dcl_integer_desc#:#Egész szám típusú beviteli mező. Közönséges és tizedes törtek nem engedélyezettek.
+dcl#:#dcl_datetime_desc#:#Dátum beviteli mező vagy naptár.
+dcl#:#dcl_mob_desc#:#Kép-, hang-, illetve videófájl feltöltési lehetőség. A fájl az adatgyűjtésben jelenik meg. Engedélyezett fájltípusok: %s
+dcl#:#dcl_file_desc#:#Tetszőleges fájl feltöltése (akár URL-ből is).
+dcl#:#dcl_reference_desc#:#Másik mező vagy táblázat kiválasztási lehetőségét biztosítja.
+dcl#:#dcl_reference_title#:#Hivatkozás táblázatra vagy mezőre.
+dcl#:#dcl_ILIAS_reference_desc#:#Keresési mező ILIAS-ban lévő objektum kiválasztására vagy belinkelésére.
+dcl#:#dcl_rating_desc#:#Felhasználók értékelhetik a bejegyzéseket, legfeljebb öt csillagig.
+dcl#:#dcl_formula_desc#:#Táblázatkezelőkhöz hasonlóan számítást vagy képletet használhatunk.
+dcl#:#dcl_additional_info_desc#:#A táblázat felett közvetlenül megjelenő szöveg.
+dcl#:#dcl_public_comments_desc#:#Felhasználók hozzászólásokat készíthetnek ehhez táblázathoz.
+dcl#:#dcl_default_sort_field_desc#:#Táblázat rendezéshez alapértelmezetten kiválasztott mező.
+dcl#:#dcl_visible_desc#:#Felhasználók a 'Táblázat' menüben hozzáférhetnek ehhez a táblázathoz.
+dcl#:#dcl_ILIAS_reference_link_desc#:#Az objektumot olvasási engedéllyel rendelkezők érhetik el a linkkel. 
+dcl#:#dcl_learning_progress_desc#:#Ha rendelkezésre áll, a felhasználó tanulási folyamatában megjelenik.
+dcl#:#dcl_display_action_menu_desc#:#Objektum másolható vagy csatolható, ha a felhasználó megfelelő jogosultsággal rendelkezik.
+dcl#:#dcl_export_enabled_desc#:#Az összes felhasználó exportálhatja a táblázat adatait. Az exportálható tulajdonság a mezőknél külön-külön állítható.
+dcl#:#dcl_add_perm_desc#:#A felhasználók bejegyzéseket hozhatnak létre ebben a táblázatban.
+dcl#:#dcl_limited_desc#:#A felhasználók csak adott időszakban hozhatnak létre, módosíthat, törölhetnek bejegyzéseket.
+dcl#:#dcl_unique_desc#:#Ebben a mezőben minden értéknek különböznie kell egymástól.
+dcl#:#dcl_formula_detail_desc#:#Automatikusan generált, nem módosítható bejegyzések.
+dcl#:#dcl_text_email_detail_desc#:#Érvényes URL-t vagy e-mailcímet adjon meg.
+adve#:#adve_auto_url_linking#:#URL Auto-Linkelés
+adve#:#adve_auto_url_linking_info#:#A szöveg bekezdéseiben lévő URL-eket ('http://..') megpróbálja megtalálni és automatikusa linkké alakítani.
+content#:#cont_auto_time#:#Automatikus animáció várakozási ideje
+content#:#cont_rand_start#:#Véletlenszerű kezdet
+content#:#cont_tabs_carousel#:#Körhinta (Carousel)
+exc#:#exc_adopt_group_teams#:#Csapatok átemelése a csoportokból.  
+exc#:#exc_adopt_group_teams_added#:#%s felhasználó hozzáadva.
+exc#:#exc_adopt_group_teams_blocked#:#%s felhasználó már hozzá volt rendelve.
+exc#:#exc_adopt_group_teams_conflict#:#'%1$s' felhasználó már a(z) '%2$s' csoportból ki lett választva.
+exc#:#exc_adopt_group_teams_no_members#:#Nincsenek tagok.
+exc#:#exc_deadline_ext_mismatch#:#A türelmi időszaknak a határidő után kell befejeződnie.
+exc#:#exc_deadline_extended#:#Türelmi időszak
+exc#:#exc_deadline_extended_info#:#A határidő és a türelmi idő között késői beadások lehetségesek.
+exc#:#exc_late_submission#:#Késői beadás
+exc#:#exc_late_submission_warning#:#%s utáni beadások későinek lesznek megjelölve.
+exc#:#exc_max_file#:#Fájlok maximális száma
+exc#:#exc_max_file_info#:#A korlát elérése után a felhasználók már tudnak több fájlt feltölteni.
+exc#:#exc_max_file_reached#:#%s fájlnál többet nem tud feltölteni.
+exc#:#exc_max_file_tgl#:#Feltöltési korlát
+exc#:#exc_no_team_yet_info_tutor#:#A csapatokat a beadandó feladat tutorai kezelik.
+exc#:#exc_peer_review_chars_invalid#:#Legalább egy visszajelzésének a hossza nem éri a szükséges %s karaktert.
+exc#:#exc_peer_review_completion#:#'Sikeresen megfelelt' állapot meghatározása
+exc#:#exc_peer_review_completion_all#:#Csak az összes szükséges visszajelzés után
+exc#:#exc_peer_review_completion_none#:#Nem szükséges visszajelzés
+exc#:#exc_peer_review_completion_one#:#Már van legalább 1 érvényes visszajelzés
+exc#:#exc_peer_review_given#:#Elküldött visszajelzések megjelenítése
+exc#:#exc_peer_review_min_chars#:#Karakterek minimális száma
+exc#:#exc_peer_review_min_chars_info#:#Érvényes visszajelzéshez szükséges minimális karakterhosszúság.
+exc#:#exc_peer_review_min_chars_tgl#:#Minimális hossz
+exc#:#exc_peer_review_show_missing#:#Még nem tekintheti meg a kapott visszajelzéseit, mert még nem adott elegendő számú visszajelzést.
+exc#:#exc_peer_review_show_received_none#:#Még egy visszajelzést sem kapott.
+exc#:#exc_peer_review_simple_unlock#:#Hozzáférés a kapott visszajelzésekhez
+exc#:#exc_peer_review_simple_unlock_active#:#Legalább 1 érvényes visszajelzés beérkezése után.
+exc#:#exc_peer_review_simple_unlock_inactive#:#Az összes szükséges visszajelzés beérkezése után.
+exc#:#exc_team_management_tutor#:#Tutorok kezelik a csapatot.
+exc#:#exc_team_management_tutor_info#:#Ha be van kapcsolva, a résztvevők nem oszthatják saját magukat csoportokba.
+exc#:#exc_team_multi_create#:#Csapat létrehozása
+exc#:#exc_team_multi_dissolve#:#Csapat(ok) feloszlatása
+style#:#sty_type_ca_cntr#:#Körhintatároló (Carousel)
+style#:#sty_type_ca_icntr#:#Körhinta elem tároló
+style#:#sty_type_ca_icont#:#Körhinta elem tartalom
+style#:#sty_type_ca_ihead#:#Körhinta elem fejléc
+wiki#:#wiki_link_md_values#:#Automatikus linkelés
+wiki#:#wiki_link_md_values_info#:#Az automatikusan linkelt tulajdonságok a wiki oldal oldalsávjában jelenik meg ugyanazon a néven.
