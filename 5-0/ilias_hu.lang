@@ -1,7 +1,7 @@
 /* Copyright (c) 1998-2015 ILIAS open source eLearning e.V., Extended GPL, see docs/LICENSE */
 /**
 * ILIAS language file
-* @author 5.0.x 2015-04-09 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
+* @author 5.0.x 2015-06-09 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
 * @author 4.2.2	Berecz Antónia <berecz@gdf.hu>
 * @module		language file Hungarian
 * @modulegroup	language
@@ -11455,7 +11455,7 @@ didactic#:#didactic_confirm_delete_msg#:#Biztos, hogy törli az alábbi oktatói
 didactic#:#didactic_delete_msg#:#Törölt oktatói sablon.
 common#:#fold_type#:#Mappatípus
 content#:#cont_pword#:#Másolás Wordből
-blog#:#blog_edit#:#Blogbeállítások
+blog#:#blog_edit#:#Blog szerkesztése
 blog#:#blog_banner#:#Banner
 blog#:#blog_background_color#:#Háttérszín
 blog#:#blog_font_color#:#Betűszín
@@ -15239,3 +15239,5 @@ meta#:#md_adv_confirm_definition_select_option_all#:#Összes bejegyzése kezelé
 meta#:#md_adv_confirm_definition_select_option_single#:#Döntéshozatal bejegyzésenként
 meta#:#md_adv_confirm_definition_select_option_all_action#:#Új érték
 file#:#file_import#:#Fájl importálása
+cron#:#cron_result_status_fail#:#Sikertelen
+wiki#:#wiki_unhide_meta_adv_records#:#További tulajdonságok megjelenítése

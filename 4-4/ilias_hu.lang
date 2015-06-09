@@ -1,11 +1,11 @@
-/* Copyright (c) 1998-2014 ILIAS open source eLearning e.V., Extended GPL, see docs/LICENSE */
+/* Copyright (c) 1998-2015 ILIAS open source eLearning e.V., Extended GPL, see docs/LICENSE */
 /**
 * ILIAS language file ...
-* @author 4.4.x 2015-04-09 00:00 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
+* @author 4.4.x 2015-06-09 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
 * @author 4.2.2	Berecz Antónia <berecz@gdf.hu>
-* @module		language file Hungary
+* @module		language file Hungarian
 * @modulegroup	language
-* @version		$Id: ilias_hu.lang 57703 2015-02-01 03:24:56Z akill $
+* @version		$Id$
 */
 // The language file starts beyond the HTML-comment below. DO NOT modify this line!
 // To edit your language file with a spreadsheet (i.e. Excel or StarCalc) remove all lines
@@ -14359,3 +14359,4 @@ grp#:#grp_admission_link_failure_membership_limited#:#Nem regisztrálhat, mert a
 crs#:#crs_admission_link_failure_membership_limited#:#Nem regisztrálhat, mert a kurzus tagsága korlátozott.
 grp#:#grp_admission_link_success_registration#:#'%s' csoportba sikeresen regisztrált.
 crs#:#crs_admission_link_success_registration#:#'%s' kurzusba sikeresen regisztrált.
+cron#:#cron_result_status_fail#:#Sikertelen
