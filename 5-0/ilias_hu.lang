@@ -1,7 +1,7 @@
 /* Copyright (c) 1998-2015 ILIAS open source eLearning e.V., Extended GPL, see docs/LICENSE */
 /**
 * ILIAS language file
-* @author 5.0.x 2015-06-09 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
+* @author 5.0.x 2015-07-05 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
 * @author 4.2.2	Berecz Antónia <berecz@gdf.hu>
 * @module		language file Hungarian
 * @modulegroup	language
@@ -11019,7 +11019,7 @@ notes#:#notes_private_annotating#:#Személyes megjegyzés
 tagging#:#tagging_set_tag#:#Címkék
 content#:#cont_link_to_internal#:#Link ILIAS-forrásra
 content#:#cont_link_to_external#:#Link külső weboldalra
-content#:#cont_link_to_wiki#:#Link wikilapra
+content#:#cont_link_to_wiki#:#Link wikilapra (zárójel beszúrása)
 content#:#cont_standard#:#Standard
 content#:#cont_char_style_com#:#Megjegyzés
 content#:#cont_char_style_quot#:#Idézet
@@ -14431,7 +14431,7 @@ content#:#cont_language#:#Nyelv
 content#:#cont_add_lang#:#Nyelv hozzáadása 
 content#:#cont_conf_delete_lang#:#Biztos, hogy törli az alábbi nyelvi támogatásokat?
 content#:#cont_back_to_page#:#Vissza az oldalra
-content#:#cont_got_lock#:#Az oldalt a szerkesztés miatt zároltuk. A szerkesztés végeztével oldja fel a zárolást.
+content#:#cont_got_lock#:#Az oldalt szerkesztés miatt zároltuk. A szerkesztés végeztével oldja fel a zárolást.
 content#:#cont_finish_editing#:#Szerkesztés befejezése
 content#:#cont_page_lock_released#:#Szerkesztés vége. Az oldal zárolása feloldva.
 notes#:#note_content_removed#:#Tartalom eltávolítva.
@@ -14810,8 +14810,8 @@ trac#:#trac_mode_questions#:#Kérdések
 trac#:#trac_mode_questions_info#:#Azon felhasználók, akik az összes kérdést hibátlanul megválaszolták megkapják a 'Befejezett' állapotot.
 wiki#:#wiki_link#:#Wiki linkelése
 wiki#:#wiki_add_link#:#Link létrehozása
-wiki#:#wiki_link_text#:#Szöveg linkelése
-wiki#:#wiki_target_page#:#Céloldal
+wiki#:#wiki_link_text#:#Link szövege
+wiki#:#wiki_target_page#:#Céllap
 mmbr#:#mmbr_selected_users#:#Kiválasztott résztvevők
 mmbr#:#mmbr_btn_mail_selected_users#:#Levél küldése
 sess#:#sess_mail_permanent_link#:#Az alábbi linkre kattintva talál információkat az eseményről:
@@ -15241,3 +15241,5 @@ meta#:#md_adv_confirm_definition_select_option_all_action#:#Új érték
 file#:#file_import#:#Fájl importálása
 cron#:#cron_result_status_fail#:#Sikertelen
 wiki#:#wiki_unhide_meta_adv_records#:#További tulajdonságok megjelenítése
+content#:#cont_wiki_link_dialog#:#Link wikilapra (párbeszédablakos)
+link#:#link_link#:#Link
