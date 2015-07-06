@@ -386,11 +386,11 @@ pre_cookies_disabled#:#A cookie-k le vannak tiltva, pedig szükségesek az ILIAS
 pre_cookies_enabled#:#Cookie-k engedélyezve
 pre_dom_missing#:#Engedélyezze a DOM támogatást PHP-telepítésében.
 pre_dom#:#DOM támogatás
-pre_error#:#az Ön telepítése nem felel meg néhány alapkövetelménynek. További információkat a <a href='%s' target='_blank'>ILIAS honlapján</a> kaphat.
+pre_error#:#Az Ön telepítése nem felel meg néhány alapkövetelménynek. További információkat az <a href="%s" target="_blank">ILIAS honlapján</a> talál.
 pre_folder_create_error#:#Nem hozható létre almappa. Változtassa meg a jogosultságokat.
 pre_folder_create#:#Mappák létrehozhatóak a webhely főmappájában
 pre_folder_write_error#:#A webhely főmappája nem írható. Változtassa meg a jogosultságokat!
-pre_gd_missing#:#Engedélyezze a GD támogatást PHP-telepítésében, lásd <a target='_blank' href='%s'>PHP dokumentáció</a>.
+pre_gd_missing#:#Engedélyezze a GD támogatást PHP-telepítésében, lásd <a target="_blank" href="%s">PHP dokumentáció</a>.
 pre_gd#:#GD támogatás
 pre_intro#:#Először nézzük, hogy környezete minden követelménynek megfelel-e, hogy telepítse és futtassa az ILIAS-t rendszerében.
 pre_javascript_comment#:#JavaScript nélkül is futtathatja az ILIAS-t, de néhány interfészjellemzőt elveszít.
@@ -404,7 +404,7 @@ pre_mysql#:#MySQL támogatás
 pre_php_version_too_low#:#Az Ön PHP verziója nem támogatott. PHP 5.2.1-et vagy magasabb verziót ajánlunk. A PHP 6 még nem volt tesztelve.
 pre_php#:#PHP verzió
 pre_root#:#Írható webhely főmappa
-pre_xsl_missing#:#Engedélyezze az XSL támogatást a PHP-telepítésében, lásd <a target='_blank' href='%s'>PHP dokumentáció</a>.
+pre_xsl_missing#:#Engedélyezze az XSL támogatást a PHP-telepítésében, lásd <a target="_blank" href="%s">PHP dokumentáció</a>.
 pre_xsl#:#XSL támogatás
 preliminaries#:#Előfeltételek
 prev#:#Előző
@@ -587,8 +587,8 @@ passwd_encoder_bcrypt#:#bcrypt
 passwd_default_encoder#:#Kódoló (encoder)
 passwd_default_encoder_info#:#Válassza ki az ILIAS-kliens alapértelmezett kódolását jelszavak tárolásához.
 passwd_encoder_bcrypt_client_salt#:#Kliens salt
-passwd_encoder_client_bcrypt_salt_info#:#ILIAS egy véletlen salt-ot generál a bcrypt kulcsmeghatározó függvényéhez, <span style='font-weight:bold'>amikor azt először kiválasztják</span>. A salt a fenti fájlban található. Célszerű visszaállítás (backup) esetére biztonságos helyre másolni ezt a fájlt. Amikor a felhasználó jelszavát tároljuk, az ILIAS generál egy további salt-ot a jelszóhoz. <span style='color:red'>Figyelem: Soha ne változtassa meg a kliens salt-ját és az adatbázisban tárolt bármelyik salt-ot! Különben a felhasználók nem tudnak bejelentkezni.</span>
-passwd_encoder_client_bcrypt_salt_info_php537#:#<span style='color:red;font-weight:bold'>A PHP %s bcrypt implementációja biztonsági hibát tartalmaz 8-bites karakterek jelszóhasználatakor. További információkat itt talál: <a href='http://php.net/security/crypt_blowfish.php' target='_blank'>http://php.net/security/crypt_blowfish.php</a>. Javasoljuk frissítse PHP-ját legalább 5.3.7-re.</span>
+passwd_encoder_client_bcrypt_salt_info#:#ILIAS egy véletlen salt-ot generál a bcrypt kulcsmeghatározó függvényéhez, <span style="font-weight:bold">amikor azt először kiválasztják</span>. A salt a fenti fájlban található. Célszerű visszaállítás (backup) esetére biztonságos helyre másolni ezt a fájlt. Amikor a felhasználó jelszavát tároljuk, az ILIAS generál egy további salt-ot a jelszóhoz. <span style="color:red">Figyelem: Soha ne változtassa meg a kliens salt-ját és az adatbázisban tárolt bármelyik salt-ot! Különben a felhasználók nem tudnak bejelentkezni.</span>
+passwd_encoder_client_bcrypt_salt_info_php537#:#<span style="color:red;font-weight:bold">A PHP %s bcrypt implementációja biztonsági hibát tartalmaz 8-bites karakterek jelszóhasználatakor. További információkat itt talál: <a href="http://php.net/security/crypt_blowfish.php" target="_blank">http://php.net/security/crypt_blowfish.php</a>. Javasoljuk frissítse PHP-ját legalább 5.3.7-re.</span>
 passwd_encoder_bcrypt_client_salt_invalid#:#Az ILIAS nem tudja meghatározni a kliens salt-ját vagy a salt nem megfelelő. Ellenőrizze a fájl hozzáférési jogosultságait és a fájl tartalmát.
 passwd_encoding_configured#:#konfigurált
 passwd_encoding_not_configured#:#nincs konfigurálva
