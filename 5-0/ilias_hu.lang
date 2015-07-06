@@ -1691,7 +1691,7 @@ cntr#:#cntr_saved_sorting#:#Rendezés mentése sikerült
 cntr#:#cntr_switch_to_new_editor_cmd#:#Új tartalom kapcsolása ehhez a laphoz. A régi tartalom eltávolításra kerül.
 cntr#:#cntr_switch_to_new_editor_message#:#Ez a támogatott szabványos szerkesztő. A régi szerkesztő tartalma nem hozható át. Lentebb vegyen fel új laptartalmat. Ha az alábbi linkre kattint, az új tartalom kerül használatra.
 cntr#:#cntr_switched_editor#:#Új tartalomhoz kapcsolva.
-cntr#:#cntr_text_media_editor#:#Oldal testreszabás
+cntr#:#cntr_text_media_editor#:#Oldal testreszabása
 cntr#:#cntr_view_by_type#:#Típus szerint csoportosított nézet
 cntr#:#cntr_view_info_by_type#:#Az objektumokat típusuk alapján csoportosítva jelenítjük meg.
 cntr#:#cntr_view_info_sessions#:#Először az eseményeket azok objektumaival, alatta pedig a további kurzustartalmakat jelenítjük meg.
@@ -14457,7 +14457,7 @@ init#:#init_error_redirect_click#:#Kattints a folytatáshoz.
 init#:#init_error_redirect_info#:#Az átirányítás nem támogatott.
 init#:#init_error_maintenance#:#A szerver karbantartás miatt nem elérhető. Elnézést az esetleges kellemetlenségért.
 init#:#init_error_authentication_fail#:#Hitelesítés sikertelen.
-obj#:#obj_multilang_title_descr_only#:#A fordítás csak címre és leírásra van bekapcsolva. Oldalszerkesztés ('Tartalom/Oldal testreszabás') fordításához további aktiválásokra van szükség.
+obj#:#obj_multilang_title_descr_only#:#A fordítás csak címre és leírásra van bekapcsolva. Oldalszerkesztés ('Tartalom/Oldal testreszabása') fordításához további aktiválásokra van szükség.
 obj#:#obj_activate_content_lang#:#Oldalszerkesztés fordításának bekapcsolása
 obj#:#obj_add_languages#:#Nyelvek hozzáadása
 obj#:#obj_activate_multilang#:#Többnyelvűség bekapcsolása
