@@ -7197,6 +7197,10 @@ mail#:#search_recipients#:#Címzettek keresése
 mail#:#send_mail_to#:#Címzettek közé
 maps#:#maps_enable_maps_info#:#Térképek engedélyezése felhasználói adatokban, csoportokban és kurzusokban.
 maps#:#maps_enable_maps#:#Térképek engedélyezése
+maps#:#maps_use_custom_server#:#Egyéni szerver használata
+maps#:#maps_custom_server_info#:#Aktiváljon egyéni szervereket csempe- és helymeghatározási adatokhoz. A bevitt adatokat szóközzel válassza el. Alapértelmezett érték '%s' a csempékhez és '%s' a helymeghatározáshoz.
+maps#:#maps_tile_server#:#Csempékhez szerver
+maps#:#maps_geolocation_server#:#Fordított helymeghatározáshoz szerver
 maps#:#maps_extt_maps#:#Térképek
 maps#:#maps_latitude#:#Földrajzi szélesség
 maps#:#maps_longitude#:#Földrajzi hosszúság
