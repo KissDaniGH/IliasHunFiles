@@ -1015,6 +1015,7 @@ assessment#:#tst_reset_processing_time_desc#:#A kitöltési idő értéke vissza
 assessment#:#tst_reset_processing_time#:#A kitöltési idő visszaállítása minden tesztkitöltéshez
 assessment#:#tst_result_user_name_pass#:#%s befejezett teszt eredménye a következőhöz: %s
 assessment#:#tst_result_user_name#:#%s eredményei:
+assessment#:#tst_result_pass#:#Tesztkitöltés végeredményei
 assessment#:#tst_results_access_always#:#Rögtön
 assessment#:#tst_results_access_date#:#Időpont
 assessment#:#tst_results_access_description#:#Ez a beállítás a résztvevők saját teszteredményeihez való hozzáférést kezeli.<br />Ha az eredmények a "Teszt befejezése után" elérhetők, a résztvevők első tesztmegoldásuk után elérhetik teszteredményeiket. Akkor is az első kitöltés után érhetik el teszteredményeiket, ha többször engedélyezett a teszt kitöltése.<br />Ha a kezdő időpontot választja, a résztvevők nem érhetik el teszteredményeiket a megadott időpont előtt. Ezt az opciót válassza, ha ECTS pontozási rendszert akar használni, ill. manuálisan kell pontoznia.<br />Ha a "Mindig" van kiválasztva, a résztvevők bármikor elérhetik teszteredményeiket, már a teszt befejezése előtt is.<br />Ha a „Soha” van kiválasztva, a teszteredmények semmikor sem lesznek elérhetők.
@@ -14360,3 +14361,38 @@ crs#:#crs_admission_link_failure_membership_limited#:#Nem regisztrálhat, mert a
 grp#:#grp_admission_link_success_registration#:#'%s' csoportba sikeresen regisztrált.
 crs#:#crs_admission_link_success_registration#:#'%s' kurzusba sikeresen regisztrált.
 cron#:#cron_result_status_fail#:#Sikertelen
+sysc#:#sysc_overview#:#Áttekintés
+sysc#:#sysc_groups#:#Rendszerellenőrzési csoportok
+sysc#:#sysc_grp_tree#:#Taneszköztároló-fa
+sysc#:#sysc_grp_tree_desc#:#A fa elemzése és az összes facsomópont megjelenítése az elemzési adatokkal.
+sysc#:#sysc_completed_num#:#Elvégzett feladatok
+sysc#:#sysc_failed_num#:#El nem végzett feladatok
+sysc#:#sysc_task_overview#:#Feladatok
+sysc#:#sysc_action_validate#:#Validálás
+sysc#:#sysc_action_repair#:#Javítás
+sysc#:#sysc_task_tree_duplicates#:#Duplikált bejegyzések a Taneszköztároló-fában
+sysc#:#sysc_task_tree_duplicates_desc#:#Duplikált bejegyzések keresése a Taneszköztároló-fa szerkezetében.
+sysc#:#sysc_task_tree_dump#:#Fa listázása
+sysc#:#sysc_task_tree_dump_desc#:#Taneszköztároló-fa szerkezetének elemzése és megjelenítése.
+sysc#:#sysc_action_list_tree#:#Taneszköztároló-fa lenyomat létrehozása
+sysc#:#sysc_action_show_tree#:#Taneszköztároló-fa lenyomat megjelenítése
+sysc#:#sysc_tree_duplicate_failures#:#Duplikált bejegyzéseket találtunk a Taneszköztároló-fa szerkezetében. Duplikált bejegyzések száma:
+sysc#:#sysc_message_success#:#Nincs hiba
+sysc#:#sysc_tree_list_failures#:#Taneszköztároló-fa lenyomatát létrehoztuk. Hibák száma a Taneszköztároló-fa szerkezetében:
+sysc#:#sysc_status_na#:#Nem futott
+sysc#:#sysc_status_running#:#Fut
+sysc#:#sysc_status_failed#:#Sikertelen
+sysc#:#sysc_status_completed#:#Befejezve
+sysc#:#sysc_task_tree_missing#:#Hiányzó bejegyzések a Taneszköztároló-fában
+sysc#:#sysc_task_tree_missing_desc#:#Hiányzó bejegyzések keresése és javítása a Taneszköztároló-fában.
+sysc#:#sysc_message_tree_missing_confirm#:#Biztos, hogy visszaállítja a hiányzó bejegyzéseket a Taneszköztároló-fa szerkezetében?
+sysc#:#sysc_btn_tree_missing#:#Hiányzók visszaállítása
+sysc#:#sysc_tree_missing_failures#:#Hiányzó bejegyzéseket találtunk a Taneszköztároló-fa szerkezetében. Hiányzó bejegyzések száma:
+sysc#:#sysc_cron_empty_trash#:#Lomtár ürítése
+sysc#:#sysc_cron_empty_trash_desc#:#Ha be van kapcsolva, a lomtárat ürítjük a megfelelő feltételek alapján (életkor, objektumtípus vagy objektumok maximális száma).
+sysc#:#sysc_task_tree_missing_tree#:#Hiányzó bejegyzések a Taneszköztároló-fában
+sysc#:#sysc_task_tree_missing_tree_desc#:#Hiányzó bejegyzések keresése és javítása a Taneszköztároló-fában.
+sysc#:#sysc_task_tree_missing_reference#:#Hiányzó objektumhivatkozások
+sysc#:#sysc_task_tree_missing_reference_desc#:#Hiányzó objektumhivatkozások keresése és javítása a Taneszköztároló-fában.
+sysc#:#sysc_task_structure#:#Fastruktúra
+sysc#:#sysc_task_structure_desc#:#Taneszköztároló-fa szerkezetének elemzése és javítása.

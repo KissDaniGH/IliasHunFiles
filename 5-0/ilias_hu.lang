@@ -1060,7 +1060,7 @@ assessment#:#tst_reset_processing_time_desc#:#A kitöltési idő értéke vissza
 assessment#:#tst_reset_processing_time#:#A kitöltési idő visszaállítása minden tesztkitöltéshez
 assessment#:#tst_result_user_name_pass#:#%s befejezett teszt eredménye a következőhöz: %s
 assessment#:#tst_result_user_name#:#%s eredményei:
-assessment#:#tst_result_pass#:#Teszt eredményei
+assessment#:#tst_result_pass#:#Tesztkitöltés végeredményei
 assessment#:#tst_results_access_always#:#Rögtön
 assessment#:#tst_results_access_always_desc#:#A résztvevők elérhetik eredményeiket az 'Információ' fülön a tesztkitöltésük ideje alatt. Továbbá a tesztkitöltők az eredményeikkel közvetlenül a teszt befejezése után megjelennek.
 assessment#:#tst_results_access_date#:#Időpont
