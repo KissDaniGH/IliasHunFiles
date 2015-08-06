@@ -1,7 +1,7 @@
 /* Copyright (c) 1998-2015 ILIAS open source eLearning e.V., Extended GPL, see docs/LICENSE */
 /**
 * ILIAS language file ...
-* @author 4.4.x 2015-06-09 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
+* @author 4.4.x 2015-08-06 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
 * @author 4.2.2	Berecz Antónia <berecz@gdf.hu>
 * @module		language file Hungarian
 * @modulegroup	language
@@ -12568,7 +12568,7 @@ registration#:#reg_allowed_domains#:#Engedélyezett e-mail cím domain-ek
 registration#:#reg_allowed_domains_info#:#Használjon helyettesítőnek *-ot, elválasztónak ;-t.
 pd#:#block_show_pdcal#:#Naptár megjelenítése
 pd#:#block_show_pdmail#:#E-mail megjelenítése
-pd#:#block_show_pdtag#:#Napjaim megjelenítése
+pd#:#block_show_pdtag#:#Saját címkéim megjelenítése
 pd#:#block_show_pdnews#:#Hírek megjelenítése
 pd#:#block_show_pdusers#:#Aktív felhasználók megjelenítése
 pd#:#block_show_pdnotes#:#Jegyzetek megjelenítése
@@ -14103,7 +14103,7 @@ content#:#cont_col_ordering#:#Oszloprendezés
 orgu#:#simple_xls#:#Egyszerű Excel Export
 assessment#:#un_add_category#:#Kategória hozzáadása
 assessment#:#un_add_unit#:#Mértékegység hozzáadása
-assessment#:#fq_question_desc#:#Definiálhatsz változókat $v1, $v2 ... $vn beírásával, végeredményeket $r1, $r2 .... $rn beírásával a kérdés szövegének tetszőleges helyén. Kattints a 'Kérdés elemzése' gombra, hogy a változók és a végeredmények szerkeszthető űrlapja megjelenjen.
+assessment#:#fq_question_desc#:#Definiálhat változókat $v1, $v2 ... $vn beírásával, végeredményeket $r1, $r2 .... $rn beírásával a kérdés szövegének tetszőleges helyén. Kattints a 'Kérdés elemzése' gombra, hogy a változók és a végeredmények szerkeszthető űrlapja megjelenjen.
 ecs#:#ecs_cmap_delete_rule#:#Mapping törlése
 wsp#:#wsp_list_excv#:#Beadandó feladat igazolás
 wsp#:#wsp_list_tstv#:#Teszt igazolás
