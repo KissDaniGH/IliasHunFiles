@@ -1,7 +1,7 @@
 ﻿/* Copyright (c) 1998-2014 ILIAS open source, Extended GPL, see docs/LICENSE */
 /**
 * ILIAS language file
-* @translator 5.1.x 2015-07-06 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
+* @translator 5.1.x 2015-08-10 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
 * @translator 31603 Antónia Berecz <berecz@gdf.hu>
 * @module       setup language file hungarian
 * @modulegroup  language
@@ -613,3 +613,25 @@ https_settings#:#HTTPS beállítások
 alert#:#Figyelmeztetés
 pre_opcache_comments#:#opcache.load_comments értéke legyen 1
 pre_load_comments#:#PHP-OPCache load_comments
+memcache_servers#:#Memcached-csomópontok
+memcache_status#:#Aktív
+memcache_host#:#Kiszolgáló
+memcache_port#:#Port
+memcache_weight#:#Súly
+memcache_actions#:#Műveletek
+memcache_edit#:#Csomópont módosításe 
+memcache_add#:#Memcached-csomópont hozzáadása
+memcache_delete#:#Csomópont törlése
+memcache_cancel#:#Mégsem
+memcache_update#:#Csomópont mentése
+memcache_status_server#:#Elérető
+cache_activate_clng#:#Nyelv
+cache_activate_obj_def#:#Objektum definiálása
+cache_activate_ilctrl#:#Folyamatirányítás
+cache_activate_comp#:#Komponensek
+cache_activate_tpl#:#Minta (HTML)
+cache_activate_events#:#Események
+cache_activated_components#:#Aktivált komponensek
+cache_flush#:#Összes cache ürítése
+cache_activate_tpl_blocks#:#Minta (Blokkok)
+cache_activate_tpl_variables#:#Minta (Változók)
