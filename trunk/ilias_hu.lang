@@ -1,7 +1,7 @@
 /* Copyright (c) 1998-2015 ILIAS open source eLearning e.V., Extended GPL, see docs/LICENSE */
 /**
 * ILIAS language file
-* @author 5.1.x 2015-08-15 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
+* @author 5.1.x 2015-08-19 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
 * @author 4.2.2	Berecz Antónia <berecz@gdf.hu>
 * @module		language file Hungarian
 * @modulegroup	language
@@ -1827,7 +1827,7 @@ rbac#:#accs_edit_permission#:#A felhasználó módosíthatja a Rendszerbeállít
 rbac#:#accs_read#:#A felhasználónak olvasási hozzáférése van a Rendszerbeállítások » Könnyű kezelés beállításaihoz
 rbac#:#accs_visible#:#A felhasználó láthatja a Rendszerbeállítások » Könnyű kezelés menüpontot
 rbac#:#accs_write#:#A felhasználó módosíthatja a Rendszerbeállítások » Könnyű kezelés beállításait
-common#:#action_aborted#:#Művelet megszakadt.
+common#:#action_aborted#:#Művelet megszakítva.
 common#:#action#:#Művelet
 common#:#actions#:#Műveletek
 common#:#activate_assessment_logging#:#Teszt és értékelés naplózásának bekapcsolása
@@ -3028,7 +3028,7 @@ common#:#import#:#Import
 common#:#important#:#Fontos
 common#:#imported#:#importálva
 common#:#in_use_by#:#Használja
-common#:#in_use#:#Felhasználói nyelv
+common#:#in_use#:#felhasználói nyelve
 common#:#in#:#miben
 common#:#inactive#:#Inaktív
 common#:#inbox#:#Beérkező posta
@@ -3084,7 +3084,7 @@ common#:#invalid_visible_required_options_selected#:#Minden kitöltendő mezőt 
 common#:#invisible_block_mess#:#Nincs jogosultsága ennek a blokknak a megtekintésére.
 common#:#invisible_block#:#Nem látható blokk
 common#:#ip_address#:#IP-cím
-common#:#is_already_your#:#Önnek már a
+common#:#is_already_your#:#már az Ön 
 common#:#item#:#Elem
 common#:#java_server_host#:#Kiszolgáló
 common#:#java_server_info#:#Ha be van kapcsolva, működik a keresés PDF, HTML-fájlokban és HTML-tananyagokban.
@@ -3313,15 +3313,15 @@ common#:#marked_entries#:#Megjelölt bejegyzések
 common#:#matriculation#:#Törzskönyvi szám
 common#:#max_number_rec#:#Maximális rekordszám
 common#:#max_time#:#Maximális idő
-common#:#mcst_add#:#MediaCast létrehozása
-rbac#:#mcst_copy#:#A felhasználó másolhat MediaCastot
-rbac#:#mcst_delete#:#A felhasználó áthelyezhet vagy törölhet MediaCastot
+common#:#mcst_add#:#Médiasugárzás létrehozása
+rbac#:#mcst_copy#:#A felhasználó másolhat médiasugárzást
+rbac#:#mcst_delete#:#A felhasználó áthelyezhet vagy törölhet médiasugárzást
 rbac#:#mcst_edit_permission#:#A felhasználó megváltoztathatja a jogosultsági beállításokat
-common#:#mcst_new#:#Új MediaCast
-rbac#:#mcst_read#:#A felhasználó olvashat MediaCastot
-rbac#:#mcst_visible#:#MediaCast látható
-rbac#:#mcst_write#:#A felhasználó szerkeszthet MediaCast tartalmat és beállításokat
-common#:#mcst#:#MediaCast
+common#:#mcst_new#:#Új médiasugárzás
+rbac#:#mcst_read#:#A felhasználó olvashat médiasugárzást
+rbac#:#mcst_visible#:#Médiasugárzás látható
+rbac#:#mcst_write#:#A felhasználó szerkeszthet médiasugárzás tartalmat és beállításokat
+common#:#mcst#:#Médiasugárzás
 common#:#mem_add_to_wl#:#Hozzáadás a várólistához
 common#:#mem_alert_no_places#:#Nem érhetők el szabad helyek.
 common#:#mem_end#:#Regisztráció vége:
@@ -3421,7 +3421,7 @@ common#:#msg_cancel#:#Tevékenység megszakítva.
 common#:#msg_changes_ok#:#A változtatások rendben voltak
 common#:#msg_clear_clipboard#:#A vágólap üres.
 common#:#msg_cloned#:#Kiválasztott objektum(ok) lemásolva
-common#:#msg_copy_clipboard_source#:#Most válassza ki azt a kurzust, amelynek tartalmát másolni szeretné, majd kattintson a 'Folytatás' gombra.
+common#:#msg_copy_clipboard_source#:#Most válassza ki azt a kurzust vagy csoportot, amelynek tartalmát másolni szeretné, majd kattintson a 'Folytatás' gombra.
 common#:#msg_copy_clipboard#:#Most válassza ki, hová szeretné beilleszteni a kiválasztott objektumokat, majd kattintson a 'Beillesztés' gombra.
 common#:#msg_copy_clipboard_container#:#Most válassza ki, hová szeretné beilleszteni a kiválasztott objektumokat, majd kattintson a 'Folytatás' gombra.
 common#:#msg_cut_clipboard#:#Most válassza ki, hová szeretné beilleszteni a kiválasztott objektumokat, majd kattintson a 'Beillesztés' gombra.
@@ -3669,9 +3669,9 @@ common#:#obj_lrss_desc#:#Minden tananyagtípus konfigurálása
 common#:#obj_lrss#:#Tananyagok
 common#:#obj_mail_desc#:#Levelezés globális beállításai
 common#:#obj_mail#:#Levelezés
-common#:#obj_mcst#:#MediaCast
-common#:#obj_mcts_desc#:#Általános beállítások MediaCasthoz
-common#:#obj_mcts#:#MediaCast
+common#:#obj_mcst#:#Médiasugárzás
+common#:#obj_mcts_desc#:#Általános beállítások médiasugárzáshoz
+common#:#obj_mcts#:#Médiasugárzás
 common#:#obj_mep#:#Médiagyűjtemény
 common#:#obj_mob#:#Multimédia objektum
 common#:#obj_mobs_desc#:#Beállítások médiaobjektumokhoz és médiagyűjteményekhez
@@ -3781,7 +3781,7 @@ common#:#objs_lng#:#Nyelvek
 common#:#objs_lo#:#Tananyagobjektumok
 common#:#objs_lres#:#Online tananyagok
 common#:#objs_mail#:#Levelek
-common#:#objs_mcst#:#MediaCastok
+common#:#objs_mcst#:#Médiasugárzások
 common#:#objs_mep#:#Médiagyűjtemény
 common#:#objs_mob#:#Médiaobjektumok
 common#:#objs_note#:#Jegyzetek
@@ -4242,7 +4242,7 @@ common#:#setSystemLanguage#:#Beállítás rendszernyelvnek
 common#:#settings_for_new_members#:#Beállítások új tagokhoz
 common#:#settings_saved#:#A beállításokat sikeresen mentette.
 common#:#settings#:#Beállítások
-common#:#setUserLanguage#:#Felhasználó nyelvének módosítása
+common#:#setUserLanguage#:#Beállítás saját felhasználói nyelvemnek
 common#:#shib_active#:#Shibboleth-támogatás engedélyezése
 common#:#shib_city#:#Város attribútum
 common#:#shib_configure#:#Shibboleth-hitelesítés konfigurálása
@@ -4952,7 +4952,7 @@ content#:#cont_ed_insert_atable#:#Bővített táblázat beszúrása
 content#:#cont_ed_insert_code#:#Kód beszúrása
 content#:#cont_ed_insert_dtable#:#Adattábla beszúrása
 content#:#cont_ed_insert_filelist#:#Fájllista beszúrása
-content#:#cont_ed_insert_incl#:#Tartalomtöredék beszúrása
+content#:#cont_ed_insert_incl#:#Tartalom-építőelem beszúrása
 content#:#cont_ed_insert_list#:#Bővített lista beszúrása
 content#:#cont_ed_insert_map#:#Térkép beszúrása
 content#:#cont_ed_insert_media#:#Kép/média beszúrása
@@ -5243,7 +5243,7 @@ content#:#cont_pc_deleted#:#Törölt tartalom
 content#:#cont_pc_dtab#:#Adattábla
 content#:#cont_pc_flist#:#Fájllista
 content#:#cont_pc_hacc#:#Harmonikalista (horizontális)
-content#:#cont_pc_incl#:#Tartalomtöredék
+content#:#cont_pc_incl#:#Tartalom-építőelem
 content#:#cont_pc_list#:#Bővített lista
 content#:#cont_pc_map#:#Térkép
 content#:#cont_pc_mob#:#Média
@@ -5378,7 +5378,7 @@ content#:#cont_show_print_view#:#Nyomtatási nézet
 content#:#cont_show#:#Megjelenítés
 content#:#cont_size#:#Méret (bájt)
 content#:#cont_skip_chapter#:#Ezen fejezet átugrása
-content#:#cont_snippets_used#:#Használt tartalomelem
+content#:#cont_snippets_used#:#Használatban lévő tartalom-építőelemek
 content#:#cont_source#:#Forrás
 content#:#cont_span#:#Span
 content#:#cont_Special#:#Különleges
@@ -6015,7 +6015,7 @@ crs#:#crs_view_objective#:#Tanulási célkitűzés-vezérelt kurzus
 crs#:#crs_view_timing#:#Időzítésnézet
 crs#:#crs_visibility_limitless#:#Korlátlan
 crs#:#crs_visibility_until#:#Elérhetőség időbeni korlátozása
-crs#:#crs_wait_info#:#Ha be van kapcsolva, és a kurzushoz rendelhető maximális felhasználói létszám betelt, az új regisztrációk várakozási listába kerülnek be.
+crs#:#crs_wait_info#:#Ha be van kapcsolva, és a kurzushoz rendelhető maximális felhasználói létszám betelt, az új regisztrálók várólistára kerülnek be.
 crs#:#crs_waiting_list#:#Várólista
 crs#:#crs_warn_no_max_set_on_waiting_list#:#Elérte a maximális kurzuslétszámát a kurzus. Csatlakozási kérelmével feliratkozhat a várólistára. A kurzusvezető üzenetet fog küldeni Önnek, ha kérését jóváhagyják vagy elutasítják.
 crs#:#crs_warn_wl_set_on_waiting_list#:#Van már néhány felhasználó a várólistán. Csatlakozási kérelmével Ön is feliratkozhat a várólistára. A kurzusvezető üzenetet fog küldeni Önnek, ha kérését jóváhagyják vagy elutasítják.
@@ -6945,7 +6945,7 @@ grp#:#grp_update_subscr_request#:#Tagsági kérelem módosítása
 grp#:#grp_users_added#:#Csoporthoz hozzáadott felhasználó.
 grp#:#grp_users_already_assigned#:#A felhasználót már hozzárendelték ehhez a csoporthoz.
 grp#:#grp_users_removed_from_list#:#A kiválasztott felhasználót eltávolította a várólistáról.
-grp#:#grp_waiting_list_info#:#Ha kipipált, a maximális felhasználószám elérése után regisztrálók várólistára kerülnek.
+grp#:#grp_waiting_list_info#:#A maximális felhasználószám elérése után regisztrálók várólistára kerülnek.
 grp#:#grp_waiting_list#:#Várólista
 grp#:#grp_warn_grp_type_changed#:#Biztos, hogy megváltoztatja a csoport típusát? Minden jogosultsági beállítás alapértelmezettre fog visszaállni.
 grp#:#grp_warn_no_max_set_on_waiting_list#:#A csoport elérte a maximális taglétszámát. Csatlakozási kérelmével feliratkozhat a várólistára. A csoportvezető üzenetet fog küldeni Önnek, ha kérését jóváhagyják vagy elutasítják.
@@ -7319,8 +7319,8 @@ maps#:#maps_zoom_level#:#Nagyítás szintje
 maps#:#maps_google_maps#:#Google-térképek
 maps#:#maps_open_layers_maps#:#OpenLayers térképek
 maps#:#maps_map_type#:#Típus
-mcst#:#mcst_add_new_item#:#Új MediaCast-objektum létrehozása 
-mcst#:#mcst_audioportable_settings_info#:#Fájlkiterjesztések vesszővel elválasztott listája
+mcst#:#mcst_add_new_item#:#Új médiasugárzás-objektum létrehozása 
+mcst#:#mcst_audioportable_settings_info#:#Fájlkiterjesztések vesszővel elválasztott felsorolása
 mcst#:#mcst_audioportable_settings_title#:#Hangformátumok fájlkiterjesztési
 mcst#:#mcst_audioportable_title#:#További hangfájl hordozható eszközökhöz
 mcst#:#mcst_automatic_detection#:#Automatikus felismerés
@@ -7335,17 +7335,17 @@ mcst#:#mcst_downloadable_info#:#Ha be van kapcsolva, linkek jelennek meg letölt
 mcst#:#mcst_downloadable#:#Linkek letöltése
 mcst#:#mcst_duration_info#:#Ha nincs megadva érték, az ILIAS automatikusan próbálja meghatározni a lejátszási időt.
 mcst#:#mcst_duration#:#Lejátszási idő
-mcst#:#mcst_edit_item#:#MediaCast-objektum szerkesztése
-mcst#:#mcst_edit_settings#:#MediaCast beállítások
-mcst#:#mcst_entry#:#MediaCast bejegyzések
+mcst#:#mcst_edit_item#:#Médiasugárzás-objektum szerkesztése
+mcst#:#mcst_edit_settings#:#Médiasugárzás beállítások
+mcst#:#mcst_entry#:#Médiasugárzás bejegyzések
 mcst#:#mcst_file_extension_settings#:#Fájlkiterjesztések
 mcst#:#mcst_global_settings#:#Globális beállítások
 mcst#:#mcst_incl_files_in_rss_info#:#Ha be van kapcsolva, a médiafájlok csatolásként kerülnek be az RSS-csatornába. Máskülönben a csatorna csak értesíti a feliratkozottat az új objektumról.
 mcst#:#mcst_incl_files_in_rss#:#Beleértve a médiafájlokat a csatornában
 mcst#:#mcst_last_submission#:#Utolsó elküldés
-mcst#:#mcst_media_cast_not_online_text#:#A MediaCast nem online vagy le van tiltva
-mcst#:#mcst_media_cast_not_online#:#A MediaCast nem online
-mcst#:#mcst_media_cast#:#MediaCast
+mcst#:#mcst_media_cast_not_online_text#:#A médiasugárzás nem online vagy le van tiltva
+mcst#:#mcst_media_cast_not_online#:#A médiasugárzás nem online
+mcst#:#mcst_media_cast#:#Médiasugárzás
 mcst#:#mcst_mimetype_info#:#Mime típus kiválasztása a visszajátszáshoz használt bővítmény vezérléséhez.<br/>Ne feledje: Legyen körültekintő, mert előfordulhat, hogy nem minden böngésző tartalmazza a használni kívánt bővítményt.
 mcst#:#mcst_mimetype#:#Mime típus
 mcst#:#mcst_mimetypes_info#:#Vesszővel elválasztott felsorolás mime típusok listájához
@@ -7355,12 +7355,12 @@ mcst#:#mcst_nr_items#:#Objektumok száma
 mcst#:#mcst_play_time#:#Lejátszási idő
 mcst#:#mcst_reference_info#:#URL a forráshoz
 mcst#:#mcst_set_playtime#:#A lejátszási időt sikeresen beállította.
-mcst#:#mcst_settings#:#MediaCast beállítások
-mcst#:#mcst_standard_settings_info#:#Fájlkiterjesztések vesszővel elválasztott listája
+mcst#:#mcst_settings#:#Médiasugárzás beállítások
+mcst#:#mcst_standard_settings_info#:#Fájlkiterjesztések vesszővel elválasztott felsorolása
 mcst#:#mcst_standard_settings_title#:#Általános formátumok fájlkiterjesztései
 mcst#:#mcst_standard_title#:#Normál médiafájl
 mcst#:#mcst_unable_to_determin_playtime#:#Nem lehet megállapítani a lejátszási időt. Állítsa be kézzel a szerkesztésre kattintva.
-mcst#:#mcst_videoportable_settings_info#:#Fájlkiterjesztések vesszővel elválasztott listája
+mcst#:#mcst_videoportable_settings_info#:#Fájlkiterjesztések vesszővel elválasztott felsorolása
 mcst#:#mcst_videoportable_settings_title#:#Videoformátumok fájlkiterjesztései
 mcst#:#mcst_videoportable_title#:#További videofájl hordozható eszközökhöz
 mcst#:#mcst_visibility_info#:#Nyilvános tételek elérhetők RSS-en keresztül hitelesítés nélkül.
@@ -7369,31 +7369,31 @@ mcst#:#mcst_visibility_users#:#Bejelentkezett felhasználók
 mep#:#mep_all_mobs#:#Minden médiaobjektum
 mep#:#mep_all#:#Minden
 mep#:#mep_clone#:#Médiagyűjtemény klónozása
-mep#:#mep_content_snippet_in_use#:#A(z) '%s' tartalomelem használatban van, nem törölhető.
+mep#:#mep_content_snippet_in_use#:#'%s' tartalom-építőelem használatban van, nem törölhető.
 mep#:#mep_copy_to_mep#:#Másolás a médiagyűjteménybe
-mep#:#mep_create_content_snippet#:#Tartalomtöredék létrehozása
+mep#:#mep_create_content_snippet#:#Tartalom-építőelem létrehozása
 mep#:#mep_create_folder#:#Mappa létrehozása
 mep#:#mep_create_mob#:#Médiaobjektum létrehozása
 mep#:#mep_create#:#Médiagyűjtemény létrehozása
 mep#:#mep_default_height#:#Alapértelmezett magasság
 mep#:#mep_default_width_height_info#:#Az alapértelmezett szélesség és magasság kerül használatra elő-beállításként új médiaobjektum létrehozásánál.
 mep#:#mep_default_width#:#Alapértelmezett szélesség
-mep#:#mep_edit_content_snippet#:#Tartalomtöredék szerkesztése
+mep#:#mep_edit_content_snippet#:#Tartalom-építőelem szerkesztése
 mep#:#mep_edit_folder#:#Mappa szerkesztése
 mep#:#mep_folder_content#:#Mappatartalom
 mep#:#mep_folder#:#Mappa
 mep#:#mep_format#:#Formátum
 mep#:#mep_import#:#Médiagyűjtemény importálása
-mep#:#mep_new_content_snippet#:#Új tartalomtöredék
+mep#:#mep_new_content_snippet#:#Új tartalom-építőelem
 mep#:#mep_new_folder#:#Új mappa
-mep#:#mep_page_created#:#Tartalomdarab létrejött.
+mep#:#mep_page_created#:#Tartalom-építőelemet sikeren létrehozta.
 mep#:#mep_page_properties#:#Laptulajdonságok
 mep#:#mep_parent_folder#:#Szülőmappa
 mep#:#mep_thumbnail#:#Bélyegkép
 mep#:#mep_title_and_description#:#Cím és leírás
 mep#:#mep_unknown#:#Nem ismert
-mep#:#mobs_activate_pages_info#:#Tartalomtöredékek létrehozásának engedélyezése médiagyűjteményekben. Ezek a töredékek újrahasználhatók (nem szerkeszthetők) tananyagokban.
-mep#:#mobs_activate_pages#:#Tartalomtöredékek menedzsmentjének használata
+mep#:#mobs_activate_pages_info#:#Tartalom-építőelemek létrehozásának engedélyezése médiagyűjteményekben. Ezen építőelemek többször felhasználhatóak tananyagokban (de nem szerkeszthetőek).
+mep#:#mobs_activate_pages#:#Tartalom-építőelemek használata
 mep#:#mobs_always_show_file_manager_info#:#Ha nincs bekapcsolva, a médiaobjektumok fájlkezelője el lesz rejtve az egyszerű mime típusok (pl. képek) esetén.
 mep#:#mobs_always_show_file_manager#:#Mindig látszódjon a fájlkezelő
 meta#:#md_adv_active#:#Aktív
@@ -8058,7 +8058,7 @@ news#:#news_period_1_year#:#Előző év
 news#:#news_period_x_days#:#Előző %s nap
 news#:#news_period_x_months#:#Előző %s hónap
 news#:#news_period_x_weeks#:#Előző %s hét
-news#:#news_public_feed_info#:#Ha be van kapcsolva, külön RSS-csatorna lesz ehhez a MediaCasthoz.
+news#:#news_public_feed_info#:#Ha be van kapcsolva, külön RSS-csatorna lesz ehhez a médiasugárzáshoz.
 news#:#news_public_feed#:#Extra RSS-csatorna
 news#:#news_related_to#:#Kapcsolatban:
 news#:#news_rss_period#:#RSS-időhossz
@@ -8730,10 +8730,10 @@ rbac#:#filter_roles_local_policy#:#Az itt helyi szabályokat használó szerepek
 rbac#:#grp_edit_event#:#Naptáresemények szerkesztése
 rbac#:#info_user_view_changed#:#A felhasználói nézet megváltozott
 rbac#:#leave#:#Kilépés
-rbac#:#mcts_edit_permission#:#A felhasználó módosíthatja a Rendszerbeállítások » MediaCast jogosultsági beállításait
-rbac#:#mcts_read#:#A felhasználónak olvasási hozzáférése van a Rendszerbeállítások » MediaCast beállításaihoz
-rbac#:#mcts_visible#:#A felhasználó láthatja a Rendszerbeállítások » MediaCast menüpontot
-rbac#:#mcts_write#:#A felhasználó módosíthatja a Rendszerbeállítások » MediaCast beállításait
+rbac#:#mcts_edit_permission#:#A felhasználó módosíthatja a Rendszerbeállítások » médiasugárzás jogosultsági beállításait
+rbac#:#mcts_read#:#A felhasználónak olvasási hozzáférése van a Rendszerbeállítások » médiasugárzás beállításaihoz
+rbac#:#mcts_visible#:#A felhasználó láthatja a Rendszerbeállítások » médiasugárzás menüpontot
+rbac#:#mcts_write#:#A felhasználó módosíthatja a Rendszerbeállítások » médiasugárzás beállításait
 rbac#:#mds_edit_permission#:#A felhasználó módosíthatja a Rendszerbeállítások » Metaadat jogosultsági beállításait
 rbac#:#mds_read#:#A felhasználónak olvasási hozzáférése van a Rendszerbeállítások » Metaadat beállításaihoz
 rbac#:#mds_visible#:#A felhasználó láthatja a Rendszerbeállítások » Metaadat menüpontot
@@ -8788,7 +8788,7 @@ rbac#:#rbac_create_glo#:#Fogalomtár létrehozása
 rbac#:#rbac_create_grp#:#Csoport létrehozása
 rbac#:#rbac_create_htlm#:#HTML-tananyag létrehozása
 rbac#:#rbac_create_lm#:#ILIAS-tananyag létrehozása
-rbac#:#rbac_create_mcst#:#MediaCast létrehozása
+rbac#:#rbac_create_mcst#:#Médiasugárzás létrehozása
 rbac#:#rbac_create_mep#:#Médiagyűjtemény létrehozása
 rbac#:#rbac_create_qpl#:#Tesztkérdés-gyűjtemény létrehozása
 rbac#:#rbac_create_rcrs#:#ECS-kurzus létrehozása
@@ -10002,8 +10002,8 @@ trac#:#trac_mode_manual#:#Tanuló állítja
 trac#:#trac_mode_objectives_info#:#A tanulási haladást automatikusan értékeljük ki a teljesített tanulási objektumok száma szerint.
 trac#:#trac_mode_objectives#:#Automatikusan tanulási célkitűzésekkel
 trac#:#trac_mode_scorm_aicc#:#Automatikusan SCORM-tételek gyűjteményével
-trac#:#trac_mode_scorm_info#:#A tanulási haladás a SCO-k állapotával kerül meghatározásra.
-trac#:#trac_mode_scorm_package_info#:#A tanulási haladás állapotát a SCORM-kurzuscsomag állapota közvetlenül fogja meghatározni.
+trac#:#trac_mode_scorm_info#:#A tanulási haladást a kiválasztott SCO-k állapota határozza meg.
+trac#:#trac_mode_scorm_package_info#:#A tanulási haladás állapotát közvetlenül a SCORM-kurzuscsomag állapota fogja meghatározni.
 trac#:#trac_mode_scorm_package#:#Automatikusan SCORM-kurzusállapotokkal
 trac#:#trac_mode_scorm#:#Automatikusan SCORM-tételek gyűjteményével
 trac#:#trac_mode_test_finished_info#:#A felhasználóknak teljesen be kell fejezniük egy tesztet.
@@ -10330,7 +10330,7 @@ crs#:#crs_members_groups#:#Csoporttagságok
 crs#:#crs_groups_nr#:#Csoporttagságok száma
 crs#:#crs_add_to_group#:#Csoportba felvétel
 wiki#:#wiki_import#:#Wiki importálása
-mcst#:#mcst_import#:#MediaCast importálása
+mcst#:#mcst_import#:#Médiasugárzás importálása
 exc#:#exc_submission_notification#:#E-mail értesítés beadásról
 exc#:#exc_submission_notification_info#:#Értesítjük, ha megoldást feltöltenek fel.
 exc#:#exc_submission_notification_body#:#ezúton értesítjük, hogy '%s' beadandó feladatba új megoldás töltöttek fel.
@@ -11053,7 +11053,7 @@ survey#:#survey_copy_questions_to_pool#:#Kérdés hozzáadása kérdésgyűjtem�
 survey#:#no_question_selected_for_copy_to_pool#:#Legalább egy olyan kérdést válasszon ki, amely még nincs linkelve kérdésgyűjteménybe.
 survey#:#survey_copy_select_questionpool#:#Kérdésgyűjtemény a másolatok elhelyezéséhez
 survey#:#survey_copy_to_questionpool_success#:#A kérdéseket sikeresen beillesztette a gyűjteménybe.
-assessment#:#test_using_template#:#A teszt ezt a sablont használja: %s. Ha nem szeretne sablont használni a teszthez, és már vannak beállításai, kattinson ide: %s.
+assessment#:#test_using_template#:#A teszt ezt a sablont használja: %s. Ha nem szeretne sablont használni a teszthez, és már vannak beállításai, kattintson ide: %s.
 assessment#:#tst_anonymity_no_anonymization#:#A résztvevők eredményei és neve nyomon követettek
 assessment#:#tst_anonymity_anonymous_test#:#A résztvevők névtelenül töltik a tesztet
 assessment#:#tst_beginning_ending_information#:#Információk a teszt elején és végén
@@ -11265,7 +11265,7 @@ content#:#cont_pc_qover#:#Kérdésáttekintés
 content#:#cont_ed_insert_qover#:#Kérdésáttekintés beszúrása
 content#:#cont_update_qover#:#Kérdésáttekintés módosítása
 content#:#cont_qover_short_message#:#Állapotüzenet
-content#:#cont_qover_short_message_info#:#'Ön helyesen válaszolta meg ennek a résznek a C kérdését az Y-ból.' üzenet kerül majd megjelenítésre.
+content#:#cont_qover_short_message_info#:#'Ön helyesen válaszolta meg ennek a résznek a C kérdését az Y-ból.' üzenet jelenik majd meg.
 content#:#cont_qover_list_wrong_q#:#Hibásan megválaszolt kérdések listája
 content#:#cont_qover_list_wrong_q_info#:#A hibásan vagy meg nem válaszolt kérdések megjelennek.
 content#:#cont_edit_qover#:#Kérdésáttekintés szerkesztése
@@ -11367,8 +11367,8 @@ content#:#cont_exp_ids_not_resp_format3#:#Az ID nem kezdődhet számmal.
 content#:#cont_current_usages#:#Jelenlegi felhasználások
 content#:#cont_all_usages#:#Tartalmazza a történetet
 content#:#cont_set_layout#:#Elrendezés beállítása
-mep#:#mep_content_snippet_used_in_older_versions#:#Ne feledje: néhány lap régebbi verziója használja ezt a részlet. Ha ezeket a lapokat visszaállítják egy olyan verzióra, amely tartalmazza ezt részletet, a részletet hiányozni fog a lapról.
-content#:#cont_missing_snippet#:#Tartalomrészlet hiányzik. A részletet töröltük.
+mep#:#mep_content_snippet_used_in_older_versions#:#Ne feledje: néhány lap régebbi verziója használja ezt az építőelemet. Ha ezeket a lapokat visszaállítják egy olyan verzióra, amely tartalmazza ezt az építőelemet, az építőelem hiányozni fog a lapról.
+content#:#cont_missing_snippet#:#Hiányzó tartalom-építőelem. Ezt az építőelemet törölték.
 content#:#cont_enable_page_history#:#Laptörténet
 content#:#cont_enable_page_history_info#:#Lapok régebbi verzióinak tárolása, és a régebbi verziókra visszagörgetés lehetőségének megengedése.
 style#:#sty_type_qover#:#Kérdésáttekintés
@@ -12525,7 +12525,7 @@ payment#:#please_choose_category#:#Válasszon egy kategóriát
 forum#:#select_max_one_thread#:#Csak egy szálat válasszon!
 common#:#shib_matriculation#:#Attribútum a beiratkozási számhoz
 common#:#soap_connect_timeout#:#Kapcsolat megszakadása időtúllépés miatt
-common#:#soap_connect_timeout_info#:#A maximális idő másodpercben, amíg a kapcsolódási kísérlet a SOAP-Webservicehez nem kerül megszakításra.
+common#:#soap_connect_timeout_info#:#Maximális idő másodpercben, amíg a kapcsolódási kísérletet a SOAP-Webszolgáltatáshoz nem szakítjuk meg.
 content#:#glo_show_taxonomy#:#Taxonómia megjelenítése
 dateplaner#:#cal_ical_infoscreen#:#Feliratkozás
 tax#:#tax_sorting#:#Sorba rendezés
@@ -12929,7 +12929,7 @@ dcl#:#dcl_change_notification_subject#:#'%s' adatgyűjtés megváltozott
 dcl#:#dcl_edit_notification#:#E-mail értesítés módosításról
 dcl#:#dcl_edit_notification_info#:#Értesítést küldünk, ha bármelyik táblát módosítják
 dcl#:#dcl_change_notification_link#:#URL
-dcl#:#dcl_change_notification_dcl_new_record#:#ezúton tájékoztatjuk, hogy az alábbi bejegyzés létrejött
+dcl#:#dcl_change_notification_dcl_new_record#:#ezúton tájékoztatjuk, hogy az alábbi bejegyzés jött létre
 dcl#:#dcl_change_notification_dcl_update_record#:#ezúton tájékoztatjuk, hogy az alábbi bejegyzés megváltozott
 dcl#:#dcl_change_notification_dcl_delete_record#:#ezúton tájékoztatjuk, hogy az alábbi bejegyzést töröltük
 dcl#:#dcl_change_why_you_receive_this_email#:#Ezt az üzenetet azért küldtük, mert bekapcsolta az értesítést erre az adatgyűjtésre.
@@ -13616,7 +13616,7 @@ dateplaner#:#cal_ch_user_assignment_success#:#A kiválasztott eseményekhez hozz
 dateplaner#:#cal_ch_user_assignment_failed_info#:#A kiválasztott eseményekhez az alábbi felhasználók hozzárendelése nem sikerült, mert elérték a foglalások maximális számát.
 dateplaner#:#cal_booking_failed_info#:#Az esemény betelt. Kérem válasszon másikat.
 registration#:#registration_codes_override_info#:#Ez a beállítás felülírja a 'Regisztráció beállítások' alatt lévő bármely értékét.
-registration#:#registration_codes_override_global_info#:#Ezek a beállítások regisztrációk kódokkal felülírhatóak.
+registration#:#registration_codes_override_global_info#:#Ezek a beállítások regisztrációs kódokkal felülírhatóak.
 crs#:#event_list_registered_only#:#Csak azon tagok, akik feljelentkeztek
 didactic#:#didactic_default_type#:#Alapértelmezett
 pd#:#pd_info_delete_sure_remove#:#Biztos, hogy letávolítja az alábbi objektumokat a munkaasztaláról?
@@ -14940,7 +14940,7 @@ sess#:#sess_reg_max_members_short#:#Tagok száma
 sess#:#sess_reg_max_members#:#Tagok számának korlátozása
 sess#:#sess_reg_max_members_info#:#Ezen az eseményen résztvevők maximumának meghatározása.
 sess#:#sess_reg_waiting_list#:#Várólista
-sess#:#sess_reg_waiting_list_info#:#Amikor a maximális létszámot elértük, az új regisztrációk várólistára kerülnek.
+sess#:#sess_reg_waiting_list_info#:#Amikor a maximális létszámot elérjük, az új regisztrálók várólistára kerülnek.
 wiki#:#wiki_page_exists#:#Létező oldal
 sess#:#sess_section_reg#:#Regisztrációs beállítások
 assessment#:#save_and_next#:#Mentés és folytatás
@@ -15487,8 +15487,7 @@ common#:#settings_for_all_members#:#A tagokat automatikusan értesítjük
 common#:#settings_per_users#:#Az összes tag egyéni beállítást alkalmazhat
 forum#:#user_decides_notification#:#Az értesítéseket a tagok manuálisan kell, hogy aktiválják
 crs#:#crs_intro_course_group_notification_for#:#Ez kurzusai és csoportjai azon híreinek kivonata, melyekre aktív az értesítés.
-crs#:#crs_intro_course_group_notification_period#:#Ez a levél %1$s és %2$s közötti híreket összegzi.
-crs#:#crs_intro_course_group_notification_title#:#Az alábbi csoportokhoz és kurzusokhoz vannak hírek:
+crs#:#crs_intro_course_group_notification_index#:#Az alábbi csoportokhoz és kurzusokhoz vannak hírek %1$s és %2$s közötti időszakból:
 forum#:#post_deleted_by#:#ezúton értesítjük, hogy '%1$s' törölt hozzászólást '%2$s' fórumban:
 forum#:#content_deleted_post#:#Törölt hozzászólás tartalma:
 forum#:#post_updated_by#:#ezúton értesítjük, hogy '%1$s' módosított '%2$s' fórumban hozzászólást: 
@@ -15612,3 +15611,57 @@ note#:#note_comment_notification_salutation#:#Tisztelt %s,
 note#:#note_by#:#Által
 note#:#note_comment_notification_link#:#Link
 note#:#note_comment_text#:#Szöveg
+lng#:#lng_enable_language_detection#:#Nyelvfelismerés engedélyezése
+lng#:#lng_disable_language_detection#:#Nyelvfelismerés tiltása
+trac#:#trac_mode_downloaded#:#Letöltve
+trac#:#trac_mode_downloaded_info#:#A tanulási haladás állapotát a fájl letöltési állapota határozza meg.
+trac#:#trac_mode_collection_mobs#:#Médiaobjektumok gyűjteménye
+trac#:#trac_mode_collection_mobs_info#:#A tanulási haladás állapotát a kiválasztott médiaobjektumok megtekintési állapota határozza meg.
+trac#:#trac_lp_determination_info_mob#:#Válassza ki azokat az elemeket, melyek a médiasugárzás végső tanulási haladás állapotát határozzák meg.
+trac#:#trac_lp_settings_info_parent_container#:#Szülőobjektumok tanulási haladása
+trac#:#trac_lp_settings_info_parent_usage#:#Tanulási haladása meghatározása
+trac#:#trac_lp_settings_info_parent_group#:#További objektumok a csoportosításban
+book#:#book_bobj#:#Foglalható objektumok
+crs#:#crs_subscription_min_members#:#Minimum szám
+crs#:#crs_subscription_min_members_info#:#A 'Kurzus/Csoport: Minimális taglétszám ellenőrzése' ütemezett feladat használja.###Nézd meg
+crs#:#crs_waiting_list_no_autofill#:#Automatikus feltöltés nélkül
+crs#:#crs_waiting_list_autofill#:#Automatikus feltöltéssel
+crs#:#crs_waiting_list_autofill_info#:#Résztvevőket automatikusan felvesszük a várólistáról lemondás esetén.
+crs#:#crs_cancellation_end#:#Lemondás időkorlátja
+crs#:#crs_period#:#Kurzusidőszak
+crs#:#crs_course_period_not_valid#:#A kurzusidőszak nem érvényes.
+crs#:#crs_max_and_min_members_needed#:#Állítsa be a minimális, illetve a maximális taglétszámot.
+crs#:#crs_max_members_needed#:#Várólista használatához a maximális taglétszám beállítása szükséges.
+crs#:#crs_max_and_min_members_invalid#:#A minimális taglétszámnak kisebbnek kell lennie, mint a maximális taglétszámnak.
+common#:#mem_cron_min_members#:#Kurzus/Csoport: Minimális taglétszám ellenőrzése
+common#:#mem_cron_min_members_info#:#A rendszergazdák értesítést kapnak, ha a minimális taglétszám nem jön össze.
+crs#:#crs_cancellation_end_rbac_info#:#A lemondást határideje %s volt, lemondása utána már nem lehetséges.
+common#:#mem_min_users#:#Felhasználók minimális száma
+grp#:#grp_wrong_min_max_members#:#Kérem ellenőrizze a felhasználók minimális és maximális számát.
+grp#:#reg_grp_min_members#:#Tagok minimális száma
+grp#:#grp_cancellation_end#:#Lemondás időkorlátja
+grp#:#grp_cancellation_end_rbac_info#:#A lemondást határideje %s volt, lemondása utána már nem lehetséges.
+sess#:#sess_reg_min_members#:#Felhasználók minimális száma
+sess#:#sess_reg_min_members_info#:#Legalább ennyi felhasználónak kell jelentkeznie.
+common#:#mem_cron_min_members_subject#:#Kurzus/Csoport: Minimális taglétszám ellenőrzése
+common#:#mem_cron_min_members_intro#:#Ezúton értesítjük, hogy az alábbi kurzusok és csoportok esetén nincs meg a minimális taglétszám (még):
+grp#:#grp_waiting_list_no_autofill#:#Automatikus feltöltés nélkül
+grp#:#grp_waiting_list_autofill#:#Automatikus feltöltéssel
+grp#:#grp_waiting_list_autofill_info#:#Résztvevőket automatikusan felvesszük a várólistáról lemondás esetén.
+sess#:#sess_reg_waiting_list_none#:#Egyik sem
+sess#:#sess_reg_waiting_list_no_autofill#:#Automatikus feltöltés nélkül
+sess#:#sess_reg_waiting_list_no_autofill_info#:#A maximális szám elérése után a jelentkezők várólistára kerülnek.
+sess#:#sess_reg_waiting_list_autofill#:#Automatikus feltöltéssel
+sess#:#sess_reg_waiting_list_autofill_info#:#Résztvevőket automatikusan felvesszük a várólistáról lemondás esetén.
+grp#:#grp_cancellation_end_info#:#Ezután a résztvevők már nem tudnak leiratkozni.
+crs#:#crs_cancellation_end_info#:#Ezután a résztvevők már nem tudnak leiratkozni.
+crs#:#crs_period_info#:#Kurzus kezdő és zárópontja
+meta#:#md_adv_deleted_fields#:#A mezőket már törölték.
+cntr#:#tab_back_to_repository#:#Vissza a Taneszköztárolóhoz
+obj#:#obj_target_location#:#Célhely
+obj#:#obj_copy_progress#:#Másolási folyamat
+cntr#:#cntr_copy_repo_tree#:#Taneszköztároló
+cntr#:#cntr_copy_crs_grp#:#Kurzusaim és csoportjaim
+crs#:#crs_mail_context_tutor_title#:#Kurzustutor 
+crs#:#crs_mail_context_member_title#:#Kurzustag
+sahs#:#sahs_mail_context_lp#:#SCORM tanulási haladás
