@@ -1,7 +1,7 @@
 ﻿/* Copyright (c) 1998-2014 ILIAS open source, Extended GPL, see docs/LICENSE */
 /**
 * ILIAS language file
-* @translator 5.1.x 2015-08-10 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
+* @translator 5.1.x 2015-08-30 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
 * @translator 31603 Antónia Berecz <berecz@gdf.hu>
 * @module       setup language file hungarian
 * @modulegroup  language
@@ -99,7 +99,7 @@ database_create#:#Adatbázis létrehozása
 database_exists#:#az adatbázis létezik
 database_install#:#Adatbázis telepítése
 database_installed#:#Adatbázis telepítve.
-database_is_uptodate#:#Adatbázisa frissítve.
+database_is_uptodate#:#Adatbázisa naprakész.
 database_needs_update#:#Adatbázisa frissítésre szorul.
 database_not_exists_create_first#:#Az adatbázis nem létezik. Először az adatbázist hozza létre.
 database_ready#:#Az adatbázis elkészült.
@@ -117,7 +117,7 @@ db_error_please_check#:#Ellenőrizze az adatbázis-kiszolgáló nevét, a felhas
 db_host#:#Adatbázis-kiszolgáló
 db_mysql#:#MySQL (MyISAM)
 db_name#:#Adatbázisnév
-db_needs_update#:#Frissíteni kell az adatbázist.
+db_needs_update#:#Az adatbázist frissíteni szükséges.
 db_not_installed#:#Nincs telepítve az adatbázis.
 db_oracle#:#Oracle
 db_pass#:#Adatbázisjelszó
@@ -520,7 +520,7 @@ unzip_path_comment_win#:#Importfájlok kicsomagolásához szükséges, pl. 'C:/t
 unzip_path_comment#:#Importfájlok kicsomagolásához szükséges, pl. 'C:/tools/unzip/unzip.exe'.
 unzip_path#:#Unzip elérési útvonal
 unzip#:#Kicsomagolás
-update_applied#:#A frissítés alkalmazva van
+update_applied#:#Frissítés(ek) sikeren telepítve
 update_error#:#Hiba frissítés közben
 update_not_found#:#A frissítés nem található
 url_to_latex#:#LaTeX CGI script URL-je
@@ -592,8 +592,8 @@ passwd_encoder_client_bcrypt_salt_info_php537#:#<span style="color:red;font-weig
 passwd_encoder_bcrypt_client_salt_invalid#:#Az ILIAS nem tudja meghatározni a kliens salt-ját vagy a salt nem megfelelő. Ellenőrizze a fájl hozzáférési jogosultságait és a fájl tartalmát.
 passwd_encoding_configured#:#konfigurált
 passwd_encoding_not_configured#:#nincs konfigurálva
-global_cache#:#Globális cache
-global_cache_configuration#:#Globális cache konfiguráció
+global_cache#:#Globális gyorsítótár
+global_cache_configuration#:#Globális gyorsítótár konfiguráció
 activate_global_cache#:#Aktivál
 global_cache_service_type#:#Cache szolgáltatások
 global_cache_service_type_0#:#PHP-Statikus-Cache
@@ -619,12 +619,12 @@ memcache_host#:#Kiszolgáló
 memcache_port#:#Port
 memcache_weight#:#Súly
 memcache_actions#:#Műveletek
-memcache_edit#:#Csomópont módosításe 
+memcache_edit#:#Csomópont módosítása 
 memcache_add#:#Memcached-csomópont hozzáadása
 memcache_delete#:#Csomópont törlése
 memcache_cancel#:#Mégsem
 memcache_update#:#Csomópont mentése
-memcache_status_server#:#Elérető
+memcache_status_server#:#Elérhető
 cache_activate_clng#:#Nyelv
 cache_activate_obj_def#:#Objektum definiálása
 cache_activate_ilctrl#:#Folyamatirányítás
@@ -632,6 +632,6 @@ cache_activate_comp#:#Komponensek
 cache_activate_tpl#:#Minta (HTML)
 cache_activate_events#:#Események
 cache_activated_components#:#Aktivált komponensek
-cache_flush#:#Összes cache ürítése
+cache_flush#:#Összes gyorsítótár ürítése
 cache_activate_tpl_blocks#:#Minta (Blokkok)
 cache_activate_tpl_variables#:#Minta (Változók)
