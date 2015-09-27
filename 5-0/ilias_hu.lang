@@ -1,7 +1,7 @@
 /* Copyright (c) 1998-2015 ILIAS open source eLearning e.V., Extended GPL, see docs/LICENSE */
 /**
 * ILIAS language file
-* @author 5.0.x 2015-09-09 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
+* @author 5.0.x 2015-09-17 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
 * @author 4.2.2	Berecz Antónia <berecz@gdf.hu>
 * @module		language file Hungarian
 * @modulegroup	language
@@ -6192,7 +6192,7 @@ dateplaner#:#changeTo#:#Mire változik:
 dateplaner#:#checkforfreetime#:#Szabad időpont keresése:
 dateplaner#:#created#:#Létrehozva
 dateplaner#:#crs_cal_activation_end#:#Kurzus vége
-dateplaner#:#crs_cal_activation_start#:#Kurzusindítás
+dateplaner#:#crs_cal_activation_start#:#Kurzus kezdete
 dateplaner#:#crs_cal_reg_end#:#Regisztráció vége
 dateplaner#:#crs_cal_reg_start#:#Regisztráció kezdete
 dateplaner#:#date_format_middle#:#m/d/y
@@ -12832,7 +12832,7 @@ dcl#:#dcl_notification_deactivate_dcl#:#Értesítés kikapcsolása adatgyűjtés
 dcl#:#dcl_notification_activated#:#Értesítés bekapcsolva
 dcl#:#dcl_notification_deactivated#:#Értesítés kikapcsolva
 dcl#:#dcl_locked#:#Zárolható
-dcl#:#dcl_locked_tooltip#:#Ha bekapcsolja, a felhasználók ezt a mezőt nem szerkeszthetik. Ez nincs hatással a 'Beállítások módosítása' jogosultsággal rendelkezőkre.
+dcl#:#dcl_locked_tooltip#:#Tiltsa le a mezőt, hogy a felhasználók ne szerkeszthessék. Ez nincs hatással a 'Beállítások módosítása' joggal bíró szerepekre. 
 dcl#:#dcl_table_settings#:#Táblabeállítások
 dcl#:#dcl_add_perm#:#A felhasználó felvehet rekordokat
 dcl#:#dcl_edit_perm#:#A felhasználó szerkeszthet rekordokat
@@ -13826,11 +13826,11 @@ common#:#objs_orgu#:#Szervezeti egységek
 common#:#obj_orgu#:#Szervezeti egység
 common#:#obj_orgu_description#:#Szervezeti felépítés létrehozása és módosítása
 common#:#il_orgu_superior#:#Felettes
-common#:#il_orgu_employee#:#Alkalmazott
+common#:#il_orgu_employee#:#Beosztott
 common#:#view_learning_progress#:#Tanulási haladás megjelenítése
 common#:#view_learning_progress_rec#:#Egység és alegységei Tanulási haladásának megjelenítése
 orgu#:#view_learning_progress#:#Tanulási haladás megjelenítése
-orgu#:#il_orgu_employee#:#Alkalmazott
+orgu#:#il_orgu_employee#:#Beosztott
 orgu#:#orgu_staff_deassign#:#Biztos, hogy eltávolítja a felhasználókat a mintából?
 orgu#:#deassign_user_successful#:#Felhasználó sikeresen eltávolítva a csoportból.
 orgu#:#il_orgu_superior#:#Felettes
@@ -13839,13 +13839,13 @@ orgu#:#orgu_msg_info_paste#:#Válassza ki a helyet, ahová az objektumot be kív
 orgu#:#orgu_view_learning_progress_rec#:#Tanulási haladás objektumainak rekurzív megjelenítése
 orgu#:#Staff#:#Személyi állomány
 orgu#:#orgu_edit#:#Szerkeszt
-orgu#:#employee#:#Alkalmazott
+orgu#:#employee#:#Beosztott
 orgu#:#superior#:#Felettes
 orgu#:#Actions#:#Műveletek
 orgu#:#show_learning_progress#:#Tanulási haladás megjelenítése
 orgu#:#users_successfuly_added#:#Felhasználó sikeresen hozzáadva.
 orgu#:#change_to_superior#:#Legyen felettes
-orgu#:#change_to_employee#:#Legyen alkalmazott
+orgu#:#change_to_employee#:#Legyen beosztott
 orgu#:#user_changed_successful#:#Változtatás sikeresen megtörtént.
 orgu#:#ou_id_type_not_valid#:#Az ou_id típusa nem érvényes. Érvényes típusok: 'reference_id' vagy 'external_id'.
 orgu#:#ou_parent_id_not_valid#:#Az ou_parent_id nem található.
@@ -13859,8 +13859,8 @@ orgu#:#orgu_add#:#Szervezeti egység hozzáadása
 orgu#:#orgu_import#:#Szervezeti egység importálása
 orgu#:#orgu_copy#:#Szervezeti egység másolása
 orgu#:#obj_orgu_duplicate#:#Szervezeti egység duplikálása
-orgu#:#local_staff#:#%s alkalmazottjai
-orgu#:#rec_staff#:#%s alkalmazottjai rekurzívan
+orgu#:#local_staff#:#%s beosztottjai
+orgu#:#rec_staff#:#%s beosztottjai rekurzívan
 orgu#:#placeholder#:#...
 orgu#:#simple_import#:#Egyszerű XML Import
 orgu#:#simple_xml#:#Egyszerű XML Export
@@ -14337,7 +14337,7 @@ wiki#:#wiki_rate_overall#:#Wiki értékelése
 content#:#lm_rating#:#Tananyag értékelése
 rating#:#rating_remove#:#Értékelés eltávolítása
 content#:#lm_rate_page#:#Oldal értékelése
-rbac#:#il_orgu_employee#:#Szervezeti egység alkalmazottja
+rbac#:#il_orgu_employee#:#Szervezeti egység beosztottja
 rbac#:#il_orgu_superior#:#Szervezeti egység felettese
 obj#:#obj_tool_setting_info_tab_info#:#Az 'Információ' fül látszódjon.
 common#:#obj_tool_setting_news_info#:#A 'Hír' blokk megjelenik a 'Tartalom' fül alatt.
@@ -15299,4 +15299,6 @@ blog#:#blog_keywords_other#:#További kulcsszavak
 blog#:#blog_keywords_other_info#:#Ezeket a kulcsszavakat másik blogbejegyzésekhez állította be.
 forum#:#forums_thread_deleted#:#A kiválasztott témát annak összes hozzászólásával sikeren törölte.
 forum#:#forums_threads_deleted#:#A kiválasztott témákat azok összes hozzászólásával sikeren törölte.
-
+user#:#feedhash#:#Hírcsatorna-hash
+wsp#:#wsp_shared_filter_reset_button#:#Keresés feltételek törlése
+wsp#:#wsp_shared_filter_button#:#Keresés
