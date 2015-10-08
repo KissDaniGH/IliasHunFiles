@@ -13662,10 +13662,10 @@ cld#:#cld_auth_failed_no_object_created#:#Hitelesítés sikertelen, Felhőobjekt
 dcl#:#fieldtitle_allow_chars#:#Megengedett karakterek: %s
 common#:#objs_orgu#:#Szervezeti egységek
 common#:#obj_orgu#:#Szervezeti egység
-+common#:#il_orgu_superior#:#Felettes
-+common#:#il_orgu_employee#:#Alkalmazott
-+common#:#view_learning_progress#:#Tanulási haladás megjelenítése
-+common#:#view_learning_progress_rec#:#Egység és alegységei Tanulási haladásának megjelenítése
+common#:#il_orgu_superior#:#Felettes
+common#:#il_orgu_employee#:#Alkalmazott
+common#:#view_learning_progress#:#Tanulási haladás megjelenítése
+common#:#view_learning_progress_rec#:#Egység és alegységei Tanulási haladásának megjelenítése
 orgu#:#view_learning_progress#:#Tanulási haladás megjelenítése
 orgu#:#il_orgu_employee#:#Alkalmazott
 orgu#:#orgu_staff_deassign#:#Biztos, hogy eltávolítja a felhasználókat a mintából?
