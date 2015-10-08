@@ -6567,12 +6567,12 @@ exc#:#exc_total_exc#:#Összes beadandó feladat
 exercise#:#exc_comment_for_learner#:#Megjegyzés a tanulónak
 exercise#:#exc_comment#:#Megjegyzés
 exercise#:#exc_crs_add_members#:#Tanulók hozzáadása ebből a kurzusból
-exercise#:#exc_failed#:#Nem teljesítette
+exercise#:#exc_failed#:#Nem elfogadható
 exercise#:#exc_feedback_from_tutor#:#Visszajelzés a tutortól
 exercise#:#exc_grading#:#Értékelés
 exercise#:#exc_mark#:#Érdemjegy
 exercise#:#exc_notgraded#:#Nincs értékelve
-exercise#:#exc_passed#:#Sikeresen teljesítette
+exercise#:#exc_passed#:#Elfogadva
 exercise#:#exc_send_mail#:#Küldés levélként
 exercise#:#exc_your_submission#:#Az Ön megoldása
 exp#:#exp_create_file#:#Exportfájl létrehozása

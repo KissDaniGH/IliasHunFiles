@@ -1,7 +1,7 @@
 /* Copyright (c) 1998-2015 ILIAS open source eLearning e.V., Extended GPL, see docs/LICENSE */
 /**
 * ILIAS language file
-* @author 5.1.x 2015-09-26 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
+* @author 5.1.x 2015-10-08 Kiss-Kálmán Dániel <kisskalmandaniel@gmail.com>
 * @author 4.2.2	Berecz Antónia <berecz@gdf.hu>
 * @module		language file Hungarian
 * @modulegroup	language
@@ -19,7 +19,7 @@ acc#:#acc_access_keys#:#Gyorsbillentyűk
 acc#:#acc_comp_frm#:#Fórum
 acc#:#acc_comp_global#:#Általános
 acc#:#acc_comp_mail#:#Levelek
-acc#:#acc_component#:#Komponens
+acc#:#acc_component#:#Összetevő
 acc#:#acc_delete#:#Törlés
 acc#:#acc_forward_mail#:#Továbbítás
 acc#:#acc_function#:#Funkció
@@ -917,8 +917,9 @@ assessment#:#save_edit#:#Tartalom mentése és előnézet
 assessment#:#finish_test#:#Teszt befejezése
 assessment#:#next_question#:#Következő
 assessment#:#previous_question#:#Előző
-assessment#:#submit_answer#:#Válasz jóváhagyása
-assessment#:#discard_answer#:#Válasz elvetése
+assessment#:#submit_answer#:#Mentés és következő
+assessment#:#skip_question#:#Válaszadás kihagyása és következő
+assessment#:#discard_answer#:#Válasz törlése
 assessment#:#discard_answer_confirmation#:#Válaszát teljesen elvetni készül. Így a kérdés megválaszolatlan marad, amíg egy másik választ ad rá.<br /><br />Biztos, hogy elveti a választ?
 assessment#:#edit_answer#:#Válasz módosítása
 assessment#:#answer_question#:#Kérdés megválaszolása
@@ -940,6 +941,8 @@ assessment#:#tst_instant_feedback_handling_freeze#:#tst_instant_feedback_handlin
 assessment#:#tst_instant_feedback_handling_freeze_desc#:#tst_instant_feedback_handling_freeze_desc
 assessment#:#tst_instant_feedback_handling_force_and_freeze#:#tst_instant_feedback_handling_force_and_freeze
 assessment#:#tst_instant_feedback_handling_force_and_freeze_desc#:#tst_instant_feedback_handling_force_and_freeze_desc
+assessment#:#tst_instant_feedback_handling_force#:#Ne fagyassza be a választ, de kötelező a visszajelzés
+assessment#:#tst_instant_feedback_handling_force_desc#:#tst_instant_feedback_handling_force_desc
 assessment#:#see_details_for_further_information#:#Nézze meg a javasolt megoldások részleteit!
 assessment#:#select_an_answer#:#--- Válasszon ki egy választ! ---
 assessment#:#select_gap#:#Szöveghelyre választás
@@ -1696,7 +1699,7 @@ certificate#:#certificate_enabled_scorm_introduction#:#Ha bejelölt, az igazolá
 certificate#:#certificate_enabled_scorm#:#Engedélyezve
 certificate#:#certificate_error_import#:#Hiba fordult elő egy igazolás importálásakor.
 certificate#:#certificate_error_upload_bgimage#:#Hiba fordult elő a háttérkép feltöltése közben.
-certificate#:#certificate_export#:#Igazolás exportálása
+certificate#:#certificate_export#:#Exportálás
 certificate#:#certificate_failed#:#sikertelen
 certificate#:#certificate_left#:#Balra
 certificate#:#certificate_letter_landscape#:#Levél fektetve (8,5 inch x 11 inch)
@@ -1735,7 +1738,7 @@ certificate#:#certificate_ph_testtitle#:#Teszt címe
 certificate#:#certificate_ph_title#:#Név előtag
 certificate#:#certificate_ph_zipcode#:#Felhasználó címe - irányítószám
 certificate#:#certificate_points_notavailable#:#Ez az érték nem számítható
-certificate#:#certificate_preview#:#Igazolás előnézete
+certificate#:#certificate_preview#:#Előnézet
 certificate#:#certificate_right#:#Jobbra
 certificate#:#certificate_settings#:#Igazolás beállításai
 certificate#:#certificate_short_name_description#:#Adja meg az igazolás rövid nevét! A rövid név az igazolásnév része lesz: ÉÉHHNN_[surname]_[SHORT_TITLE]_certificate.pdf
@@ -1786,7 +1789,7 @@ cmps#:#cmps_add_new_rank#:#Pozíció az Új objektum létrehozása listában
 cmps#:#cmps_available#:#Elérhető
 cmps#:#cmps_basic_files#:#Alapfájlok
 cmps#:#cmps_class_file#:#Osztályfájl
-cmps#:#cmps_component#:#Komponens
+cmps#:#cmps_component#:#Összetevő
 cmps#:#cmps_current_version#:#Jelenlegi verzió
 cmps#:#cmps_database#:#Adatbázis
 cmps#:#cmps_db_update#:#Adatbázis-frissítési szkript
@@ -5506,8 +5509,8 @@ content#:#cont_toc_mode#:#Tartalomjegyzék-elemek
 content#:#cont_toc#:#Tartalomjegyzék
 content#:#cont_top#:#Tetejére
 content#:#cont_total_time#:#Teljes idő
-content#:#cont_tracking_bysco#:#Fejezet által
-content#:#cont_tracking_byuser#:#Felhasználó által
+content#:#cont_tracking_bysco#:#Fejezet szerint
+content#:#cont_tracking_byuser#:#Felhasználó szerint
 content#:#cont_tracking_data#:#Nyomkövetési adatok
 content#:#cont_tracking_items#:#Nyomkövetési tételek
 content#:#cont_translations_assigned#:#Fordítás(ok) hozzárendelve
@@ -6729,12 +6732,12 @@ exc#:#exc_total_exc#:#Összes beadandó feladat
 exercise#:#exc_comment_for_learner#:#Megjegyzés a tanulónak
 exercise#:#exc_comment#:#Megjegyzés
 exercise#:#exc_crs_add_members#:#Tanulók hozzáadása ebből a kurzusból
-exercise#:#exc_failed#:#Nem teljesítette
+exercise#:#exc_failed#:#Nem elfogadható
 exercise#:#exc_feedback_from_tutor#:#Visszajelzés a tutortól
 exercise#:#exc_grading#:#Értékelés
 exercise#:#exc_mark#:#Érdemjegy
 exercise#:#exc_notgraded#:#Nincs értékelve
-exercise#:#exc_passed#:#Sikeresen teljesítette
+exercise#:#exc_passed#:#Elfogadva
 exercise#:#exc_send_mail#:#Küldés levélként
 exercise#:#exc_your_submission#:#Az Ön megoldása
 exp#:#exp_create_file#:#Exportfájl létrehozása
@@ -9415,7 +9418,7 @@ survey#:#apply#:#Alkalmaz
 survey#:#arithmetic_mean#:#Számtani átlag
 survey#:#ask_insert_questionblocks#:#Biztos, hogy beilleszti az alábbi kérdésblokk(oka)t a kérdőívbe?
 survey#:#ask_insert_questions#:#Biztos, hogy beilleszti az alábbi kérdés(eke)t a kérdőívbe?
-survey#:#back#:#<< Vissza
+survey#:#back#:#Vissza
 survey#:#before#:#mi előtt
 survey#:#browse_for_questions#:#Hozzáadás kérdésgyűjteményből
 survey#:#cancel_survey#:#Kérdőív kitöltésének felfüggesztése
@@ -12381,7 +12384,7 @@ crs#:#crs_course_status_of_users#:#Kurzus teljesítése
 crs#:#crs_status_determination#:#'Sikeresen teljesítette' állapot meghatározása
 crs#:#crs_status_determination_manual#:#Tanulási haladás alapján
 crs#:#crs_status_determination_lp#:#Tanulási haladástól függetlenül
-crs#:#crs_status_determination_sync#:#Most az összes felhasználó kurzusállapotát szinkronizáljuk a tanulási haladási állapotával
+crs#:#crs_status_determination_sync#:#A kurzusállapot értéke automatikusan 'Sikeresen teljesítette' lesz, amint a tanuló a tanulási haladását befolyásoló összes objektumot teljesítette. A beállítások módosítása előtti tanulási haladásokat figyelembe vesszük, a kézzel állított 'Sikeresen teljesített' állapotok sem változnak. Biztos, hogy módosítja az összes tag kurzusállapotát a jelenlegi tanulási haladásai alapján? 
 trac#:#trac_session_statistics_mode_day#:#Nap
 trac#:#trac_session_statistics_mode_week#:#Hét
 trac#:#trac_session_statistics_mode_month#:#Hónap
@@ -12533,7 +12536,7 @@ help#:#help_tooltips#:#Buboréksúgó
 help#:#help_tooltip_id#:#Buboréksúgó ID
 help#:#help_tt_text#:#Szöveg
 help#:#help_all#:#Minden
-help#:#help_component#:#Komponens
+help#:#help_component#:#Összetevő
 help#:#help_filter#:#Szűrő
 help#:#help_open_online_help#:#Online súgó megnyitása
 help#:#help_toggle_tooltips#:#Buboréksúgók be-/kikapcsolása
@@ -12871,7 +12874,7 @@ rbac#:#rbac_import_role#:#Szerep importálása
 rbac#:#rbac_role_imported#:#A szerepet importáltuk.
 common#:#objs_rcat#:#ECS kategória
 administration#:#adm_user_starting_point_object#:#Taneszköztárolóbeli objektum
-administration#:#adm_user_starting_point_ref_id#:#Hivatkozás ID
+administration#:#adm_user_starting_point_ref_id#:#ref_id
 administration#:#adm_user_starting_point_personal#:#Személyes beállítás
 administration#:#adm_user_starting_point_personal_info#:#Ha be van kapcsolva, a felhasználók kiválaszthatják kezdőlapjukat.
 rbac#:#internal_mail#:#Belső e-mail
@@ -13327,7 +13330,7 @@ assessment#:#oq_btn_define_terms#:#Kifejezés-megadó nézetre váltás
 assessment#:#oq_btn_define_pictures#:#Kép-megadó nézetre váltás
 assessment#:#oq_header_ordering_elements#:#Elemek rendezése
 cron#:#cron_job_id#:#Azonosító
-cron#:#cron_component#:#Komponens
+cron#:#cron_component#:#Összetevő
 cron#:#cron_schedule#:#Ütemezés
 cron#:#cron_status#:#Állapot
 cron#:#cron_status_info#:#Állapotinformáció
@@ -15391,7 +15394,7 @@ scormtrac#:#lvalue#:#Kulcs
 scormtrac#:#rvalue#:#Érték
 scormtrac#:#identifierref#:#SCO-Azonosító
 dcl#:#dcl_online_info#:#Az adatgyűjtést csak online állapotában használhatják a felhasználók.
-dcl#:#dcl_notification_info#:#Egyéni értesítési funkció engedélyezése a felhasználók számára.
+dcl#:#dcl_notification_info#:#Minden felhasználó maga dönt az értesítésről
 administration#:#adm_missing_entries#:#Hiányzó bejegyzések
 administration#:#adm_missing_entry_add_action#:#Hozzáadás
 administration#:#adm_missing_entry_add#:#Új bejegyzés hozzáadása
@@ -15637,8 +15640,8 @@ content#:#cont_mycourses_sortorder_alphabetical#:#Alfabetikus
 content#:#cont_mycourses_sortorder_location#:#Hely szerint
 content#:#cont_mycourses_sortorder_info#:#Ez az alapértelmezett beállítás. Az összes felhasználó egyéni rendezést választhat, ami bármelyik portfólió összes 'Kurzusaim' elemeire vonatkozik.
 rbac#:#redact#:#Szerkesztő
-common#:#il_blog_editor#:#Blogszerkesztő
-rbac#:#blog_redact#:#Felhasználó mások bejegyzéseit is módosíthatja
+common#:#il_blog_editor#:#Blog-főszerkesztő
+rbac#:#blog_redact#:#Felhasználó más szerzők bejegyzéseit is módosíthatja
 blog#:#blog_contributors#:#Blogközreműködők
 meta#:#meta_obj_type_inactive#:#Nincs használatban
 meta#:#meta_obj_type_mandatory#:#Mandatory
@@ -15712,7 +15715,7 @@ sess#:#sess_reg_waiting_list_autofill#:#Automatikus feltöltéssel
 sess#:#sess_reg_waiting_list_autofill_info#:#Résztvevőket automatikusan felvesszük a várólistáról lemondás esetén.
 grp#:#grp_cancellation_end_info#:#Ezután a résztvevők már nem tudnak leiratkozni.
 crs#:#crs_cancellation_end_info#:#Ezután a résztvevők már nem tudnak leiratkozni.
-crs#:#crs_period_info#:#Kurzus kezdő és zárópontja
+crs#:#crs_period_info#:#Információ a kurzusidőszak kezdő és záró dátumáról
 meta#:#md_adv_deleted_fields#:#A mezőket már törölték.
 cntr#:#tab_back_to_repository#:#Vissza a Taneszköztárolóhoz
 obj#:#obj_target_location#:#Célhely
@@ -15903,7 +15906,7 @@ rbac#:#logs_visible#:#A felhasználó láthatja a Rendszerbeállítások » Napl
 rbac#:#logs_write#:#A felhasználó módosíthatja a Rendszerbeállítások » Naplózási beállítások beállításait
 logging#:#logs_settings#:#Naplózási beállítások
 log#:#log_general_settings#:#Naplózási beállítások
-log#:#log_components#:#Komponensek
+log#:#log_components#:#Összetevők
 log#:#log_log_level#:#Naplózás szintje
 log#:#log_level_debug#:#HIBAKERESÉS
 log#:#log_level_info#:#INFORMACIÓ
@@ -16030,3 +16033,16 @@ wiki#:#wiki_page_title_too_long#:#A meg adott cím túl hosszú. Adjon a Wiki ol
 exc#:#exc_direct_submit#:#Jóváhagyás
 export#:#no_file#:#Nincs fájl
 content#:#lm_no_download_files#:#Jelenleg nem áll rendelkezésre letölthető fájl.
+rbac#:#feed_copy#:#A felhasználó másolhat webhírforrást
+log#:#log_level_off#:#Kikapcsolva
+log#:#log_component_root_desc#:#Üzenethez log-szint, ami egy összetevőhöz sincs hozzárendelve.
+administration#:#adm_user_starting_point_ref_id_info#:#Nyissa meg az objektumot, amit Személyes kezdőpontnak szeretne beállítani, majd másolja böngészője címsorában lévő 'ref_id' számértékét a szövegmezőbe.
+mail#:#mail_crs_roles#:#Kurzusszerepeknek levélküldés
+mail#:#mail_grp_roles#:#Csoportszerepeknek levélküldés
+mail#:#send_mail_members#:#Összes tag
+mail#:#send_mail_tutors#:#Összes tutor
+mail#:#send_mail_admins#:#Összes vezető
+mail#:#mail_sel_users#:#Kiválasztott felhasználóknak levélküldés
+awrn#:#awrn_max_inactivity#:#Maximális tétlenségi időszak
+awrn#:#awrn_max_inactivity_info#:#Ennyi idő után tekintjük offline állapotúnak a felhasználót. Ha nem állít be értéket, a munkamenet idejét használjuk.
+awrn#:#awrn_minutes#:#perc
