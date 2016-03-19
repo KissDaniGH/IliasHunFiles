@@ -347,7 +347,7 @@ no_path_zip#:#Nincs megadva Zip elérési útvonal.
 no_setup_pass_given#:#Nincs megadva setup-jelszó.
 no_username#:#Nincs megadva felhasználónév.
 no_valid_client_id#:#Nincs érvényes kliens-azonosító (ID).
-none#:#Nincs
+none#:#Semmi
 not_configured#:#Nincs konfigurálva
 not_connected_to_db#:#Nem kapcsolódott az adatbázishoz
 online#:#on-line
